@@ -1,13 +1,1 @@
-[
-  {
-    "id": 1,
-    "name": "ספורט 1",
-    "url": "https://planetary.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=d9cf880cd96ccc88d4c08a41454a84c2bc7ed405-2cc0f24ec21951ae374da3d4491f02c2-1756674326-1756663526",
-    "image": "sport1",
-    "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-1-israel/168",
-      "Origin": "https://www.freeshot.live"
-    }
-  }
-]
+[]
