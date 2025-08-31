@@ -18,35 +18,29 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install Chrome & Chromedriver
+    - name: Install Chrome and ChromeDriver
       run: |
         sudo apt update
-        sudo apt install -y wget unzip jq xvfb libxi6 libgconf-2-4 libnss3 libxss1 libappindicator1 libindicator7
+        sudo apt install -y wget unzip jq
 
-        # Clean previous
-        sudo rm -f /usr/bin/chromedriver /usr/local/bin/chromedriver /usr/bin/google-chrome
-
-        # Install Chrome
+        # התקנת Google Chrome
         wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         sudo apt install -y ./google-chrome-stable_current_amd64.deb
 
-        # Get correct chromedriver
+        # קבלת גרסה תואמת של ChromeDriver
         CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-        DRIVER_URL=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | \
-          jq -r '.channels.Stable.downloads.chromedriver[] | select(.platform == "linux64") | .url' | head -n 1)
-
+        DRIVER_URL=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | jq -r \
+          ".channels.Stable.downloads.chromedriver[] | select(.platform == \"linux64\") | .url")
         wget -O chromedriver.zip "$DRIVER_URL"
         unzip chromedriver.zip
         sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
         sudo chmod +x /usr/local/bin/chromedriver
 
-    - name: Install Python dependencies
+    - name: Install Python requirements
       run: pip install -r requirements.txt
 
     - name: Run scraper
-      env:
-        DISPLAY: :99
-      run: xvfb-run -a python freeshot_scraper.py
+      run: python freeshot_scraper.py
 
     - name: Commit updated channels.json
       run: |
