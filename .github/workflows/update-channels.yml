@@ -20,17 +20,35 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
         sudo apt update
-        sudo apt install -y chromium-driver chromium-browser
+        sudo apt install -y wget unzip xvfb libxi6 libgconf-2-4 libnss3-dev libxss1 libappindicator1 libindicator7
+        
+        # Install Google Chrome
+        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo apt install -y ./google-chrome-stable_current_amd64.deb
+        
+        # Install Chromedriver matching Chrome version
+        CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+        DRIVER_URL=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | \
+          jq -r ".channels.Stable.downloads.chromedriver[] | select(.platform == \"linux64\") | .url" | head -n 1)
+        wget -O chromedriver.zip "$DRIVER_URL"
+        unzip chromedriver.zip
+        sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+        sudo chmod +x /usr/local/bin/chromedriver
+
+        # Install Python requirements
+        pip install -r requirements.txt
 
     - name: Run scraper
-      run: python freeshot_scraper.py
+      env:
+        DISPLAY: :99
+      run: |
+        xvfb-run --auto-servernum python freeshot_scraper.py
 
     - name: Commit updated channels.json
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add channels.json
-        git commit -m "🔄 Update channels.json [auto]" || echo "No changes"
+        git commit -m "🔄 Update channels.json [auto]" || echo "No changes to commit"
         git push
