@@ -2,7 +2,7 @@ name: Update channels.json
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # ריצה כל שעתיים
+    - cron: '0 */2 * * *' # כל שעתיים
   workflow_dispatch:
 
 jobs:
@@ -27,8 +27,9 @@ jobs:
         wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         sudo apt install -y ./google-chrome-stable_current_amd64.deb
 
-        # Install matching ChromeDriver
-        DRIVER_URL=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | jq -r ".channels.Stable.downloads.chromedriver[] | select(.platform == \"linux64\") | .url")
+        # Install ChromeDriver matching the Chrome version
+        DRIVER_URL=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" \
+        | jq -r ".channels.Stable.downloads.chromedriver[] | select(.platform == \"linux64\") | .url")
         wget -O chromedriver.zip "$DRIVER_URL"
         unzip chromedriver.zip
         sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
@@ -42,19 +43,13 @@ jobs:
       run: |
         xvfb-run --auto-servernum python freeshot_scraper.py
 
-    - name: Commit and push updated channels.json
+    - name: Commit updated channels.json
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-
+        git pull --rebase
         git add channels.json
-
-        # Pull (with rebase) in case there were upstream changes
-        git pull --rebase origin ${{ github.ref_name }} || echo "Pull failed or not needed"
-
-        # Commit changes if any
         git commit -m "🔄 Update channels.json [auto]" || echo "No changes to commit"
-
         git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
