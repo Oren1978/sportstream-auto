@@ -1,8 +1,10 @@
 import json
 import time
-from selenium import webdriver
+from seleniumwire import webdriver  # ⚠️ שים לב: seleniumwire
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchFrameException, TimeoutException
 
 channels = [
     {
@@ -64,44 +66,48 @@ channels = [
 def get_m3u8(driver, url):
     try:
         driver.get(url)
-        time.sleep(10)
-        logs = driver.get_log("performance")
-        for entry in logs:
-            try:
-                msg = entry["message"]
-                if ".m3u8" in msg and "url" in msg:
-                    start = msg.find("https")
-                    end = msg.find(".m3u8") + 5
-                    if start != -1 and end != -1:
-                        return msg[start:end]
-            except Exception:
-                continue
+        time.sleep(12)  # זמן לטעינת JS והנגן
+
+        # נסה להיכנס ל-iframe אם קיים
+        try:
+            iframe = driver.find_element(By.TAG_NAME, "iframe")
+            driver.switch_to.frame(iframe)
+            time.sleep(5)
+        except NoSuchFrameException:
+            pass
+
+        # חיפוש בבקשות רשת דרך seleniumwire
+        for request in driver.requests:
+            if request.response and ".m3u8" in request.url:
+                return request.url
+
     except Exception as e:
         print(f"⚠️  Failed to fetch m3u8 for {url}: {e}")
     return None
 
 def main():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+
+    seleniumwire_options = {
+        'verify_ssl': False,
+        'request_storage': 'memory',
+        'disable_encoding': True
+    }
+
+    service = Service("/usr/local/bin/chromedriver")
+    driver = webdriver.Chrome(service=service, options=chrome_options, seleniumwire_options=seleniumwire_options)
+
     output = []
 
     for ch in channels:
         print(f"⏳ Scraping: {ch['name']}")
-
-        # יצירת דפדפן חדש בכל סיבוב
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--window-size=1920,1080")
-        chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
-        chrome_options.binary_location = "/usr/bin/google-chrome"
-        service = Service("/usr/local/bin/chromedriver")
-
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-
         stream_url = get_m3u8(driver, ch["page_url"])
-        driver.quit()
-
         if stream_url:
             print(f"✅ Found stream: {stream_url}")
             output.append({
@@ -117,6 +123,8 @@ def main():
             })
         else:
             print(f"❌ No stream found for {ch['name']}")
+
+    driver.quit()
 
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
