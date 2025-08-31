@@ -2,7 +2,7 @@ name: Update channels.json
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # כל שעתיים
+    - cron: '0 */2 * * *'  # כל שעתיים
   workflow_dispatch:
 
 jobs:
@@ -18,21 +18,22 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install Google Chrome + Chromedriver
+    - name: Install Chrome & Chromedriver
       run: |
         sudo apt update
-        sudo apt install -y wget unzip jq
+        sudo apt install -y wget unzip jq xvfb libxi6 libgconf-2-4 libnss3 libxss1 libappindicator1 libindicator7
 
-        # Install Google Chrome
+        # Clean previous
+        sudo rm -f /usr/bin/chromedriver /usr/local/bin/chromedriver /usr/bin/google-chrome
+
+        # Install Chrome
         wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         sudo apt install -y ./google-chrome-stable_current_amd64.deb
 
-        # Get exact Chrome version
+        # Get correct chromedriver
         CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-
-        # Fetch matching chromedriver
-        DRIVER_URL=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json" | \
-          jq -r --arg ver "$CHROME_VERSION" '.versions[] | select(.version == $ver) | .downloads.chromedriver[] | select(.platform == "linux64") | .url')
+        DRIVER_URL=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | \
+          jq -r '.channels.Stable.downloads.chromedriver[] | select(.platform == "linux64") | .url' | head -n 1)
 
         wget -O chromedriver.zip "$DRIVER_URL"
         unzip chromedriver.zip
@@ -43,7 +44,9 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run scraper
-      run: python freeshot_scraper.py
+      env:
+        DISPLAY: :99
+      run: xvfb-run -a python freeshot_scraper.py
 
     - name: Commit updated channels.json
       run: |
