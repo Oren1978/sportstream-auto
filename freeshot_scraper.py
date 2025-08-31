@@ -1,9 +1,8 @@
 import json
 import time
-from selenium import webdriver
+from seleniumwire import webdriver  # ⚠️ שים לב - לא selenium רגיל
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
 
 channels = [
     {
@@ -16,26 +15,16 @@ channels = [
 ]
 
 def get_m3u8(driver, url):
-    requests = []
-
-    def log_request(request):
-        if ".m3u8" in request['request']['url']:
-            requests.append(request['request']['url'])
-
     try:
-        driver.execute_cdp_cmd("Network.enable", {})
-        driver.request_interceptor = log_request
         driver.get(url)
-        time.sleep(12)
+        time.sleep(10)
 
-        # נשלוף את כל הבקשות ברשת
-        logs = driver.execute_cdp_cmd("Network.getResponseBody", {})
-        for req in requests:
-            if ".m3u8" in req:
-                return req
+        for request in driver.requests:
+            if request.response and ".m3u8" in request.url:
+                return request.url
+
     except Exception as e:
         print(f"⚠️  Failed to fetch m3u8 for {url}: {e}")
-
     return None
 
 def main():
@@ -45,12 +34,14 @@ def main():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument(
-        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
-    )
     chrome_options.binary_location = "/usr/bin/google-chrome"
+
+    seleniumwire_options = {
+        'verify_ssl': False
+    }
+
     service = Service("/usr/local/bin/chromedriver")
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    driver = webdriver.Chrome(service=service, options=chrome_options, seleniumwire_options=seleniumwire_options)
 
     output = []
 
