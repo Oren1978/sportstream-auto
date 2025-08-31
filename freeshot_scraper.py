@@ -3,7 +3,6 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
 
 channels = [
     {
@@ -59,7 +58,7 @@ channels = [
         "name": "ספורט 5 גולד",
         "page_url": "https://www.freeshot.live/live-tv/sport-5-gold-israel/176",
         "image": "sport5gold"
-    },
+    }
 ]
 
 def get_m3u8(driver, url):
@@ -67,20 +66,15 @@ def get_m3u8(driver, url):
         driver.get(url)
         time.sleep(10)
         logs = driver.get_log("performance")
-
         for entry in logs:
-            try:
-                msg = entry["message"]
-                if ".m3u8" in msg and "url" in msg:
-                    start = msg.find("https")
-                    end = msg.find(".m3u8") + 5
-                    if start != -1 and end != -1:
-                        return msg[start:end]
-            except Exception:
-                continue
-
+            msg = entry["message"]
+            if ".m3u8" in msg and "url" in msg:
+                start = msg.find("https")
+                end = msg.find(".m3u8") + 5
+                if start != -1 and end != -1:
+                    return msg[start:end]
     except Exception as e:
-        print(f"⚠️  Failed to fetch m3u8 for {url}: {e}")
+        print(f"⚠️ Failed to fetch m3u8 for {url}: {e}")
     return None
 
 def main():
@@ -91,12 +85,11 @@ def main():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
-
-    # חובה ב-GitHub Actions:
     chrome_options.binary_location = "/usr/bin/google-chrome"
-    service = Service("/usr/local/bin/chromedriver")
 
+    service = Service("/usr/local/bin/chromedriver")
     driver = webdriver.Chrome(service=service, options=chrome_options)
+
     output = []
 
     for ch in channels:
