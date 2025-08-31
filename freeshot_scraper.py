@@ -67,12 +67,18 @@ def get_m3u8(driver, url):
         driver.get(url)
         time.sleep(10)
         logs = driver.get_log("performance")
+
         for entry in logs:
-            msg = entry["message"]
-            if ".m3u8" in msg and "url" in msg:
-                start = msg.find("https")
-                end = msg.find(".m3u8") + 5
-                return msg[start:end]
+            try:
+                msg = entry["message"]
+                if ".m3u8" in msg and "url" in msg:
+                    start = msg.find("https")
+                    end = msg.find(".m3u8") + 5
+                    if start != -1 and end != -1:
+                        return msg[start:end]
+            except Exception:
+                continue
+
     except Exception as e:
         print(f"⚠️  Failed to fetch m3u8 for {url}: {e}")
     return None
@@ -86,12 +92,11 @@ def main():
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
 
-    # ✅ הכרחי עבור GitHub Actions – הנתיב החדש של Google Chrome
+    # חובה ב-GitHub Actions:
     chrome_options.binary_location = "/usr/bin/google-chrome"
     service = Service("/usr/local/bin/chromedriver")
 
     driver = webdriver.Chrome(service=service, options=chrome_options)
-
     output = []
 
     for ch in channels:
@@ -100,6 +105,7 @@ def main():
         if stream_url:
             print(f"✅ Found stream: {stream_url}")
             output.append({
+                "id": ch["id"],
                 "name": ch["name"],
                 "url": stream_url,
                 "image": ch["image"],
