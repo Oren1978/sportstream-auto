@@ -1,0 +1,36 @@
+name: Update channels.json
+
+on:
+  schedule:
+    - cron: '0 */2 * * *' # כל שעתיים
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        sudo apt update
+        sudo apt install -y chromium-driver chromium-browser
+
+    - name: Run scraper
+      run: python freeshot_scraper.py
+
+    - name: Commit updated channels.json
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add channels.json
+        git commit -m "🔄 Update channels.json [auto]" || echo "No changes"
+        git push
