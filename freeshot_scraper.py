@@ -5,7 +5,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-# ערוצים לעקוב אחריהם
 channels = [
     {
         "id": 1,
@@ -86,9 +85,11 @@ def main():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
-    chrome_options.binary_location = "/usr/bin/chromium-browser"  # ✅ Chromium for GitHub Actions
 
-    service = Service("/usr/bin/chromedriver")  # ✅ תואם לאובונטו
+    # ✅ הכרחי עבור GitHub Actions – הנתיב החדש של Google Chrome
+    chrome_options.binary_location = "/usr/bin/google-chrome"
+    service = Service("/usr/local/bin/chromedriver")
+
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     output = []
