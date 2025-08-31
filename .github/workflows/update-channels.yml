@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt update
-        sudo apt install -y wget unzip xvfb libxi6 libnss3 libxss1 jq libatk-bridge2.0-0 libgtk-3-0 libasound2
+        sudo apt install -y wget unzip xvfb libxi6 libnss3 libxss1 jq libatk-bridge2.0-0 libgtk-3-0 libasound2t64
 
         # Install Google Chrome
         wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
