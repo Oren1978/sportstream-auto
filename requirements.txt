@@ -1,2 +1,1 @@
-selenium
-
+selenium==4.21.0
