@@ -1,8 +1,11 @@
 import json
 import time
-from seleniumwire import webdriver  # ⚠️ שים לב: seleniumwire
+from seleniumwire import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 channels = [
     {"id": 1, "name": "ספורט 1", "page_url": "https://www.freeshot.live/live-tv/yes-sport-1-israel/168", "image": "sport1"},
@@ -18,24 +21,26 @@ channels = [
 
 def get_m3u8(driver, url):
     try:
+        driver.requests.clear()  # ✅ מנקה בקשות קודמות
         driver.get(url)
-        time.sleep(10)  # אפשר להוריד ל-5 אם זה מספיק
 
-        # שליפת כל הבקשות עם m3u8
+        # המתנה לטעינה אמיתית
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.TAG_NAME, "iframe"))
+        )
+
+        time.sleep(10)  # המתנה נוספת לטעינת ה-m3u8
+
         m3u8_requests = [
             request.url for request in driver.requests
             if request.response and ".m3u8" in request.url
         ]
 
-        if not m3u8_requests:
-            return None
-
-        # החזרת הראשון שנראה תקין
         for m3u8_url in m3u8_requests:
-            if "index.fmp4.m3u8" in m3u8_url or "index.m3u8" in m3u8_url:
+            if "index" in m3u8_url:
                 return m3u8_url
 
-        return m3u8_requests[0]
+        return m3u8_requests[0] if m3u8_requests else None
 
     except Exception as e:
         print(f"⚠️  Failed to fetch m3u8 for {url}: {e}")
@@ -48,11 +53,11 @@ def main():
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--window-size=1920,1080")
-
     chrome_options.binary_location = "/usr/bin/google-chrome"
-    service = Service("/usr/local/bin/chromedriver")
 
+    service = Service("/usr/local/bin/chromedriver")
     driver = webdriver.Chrome(service=service, options=chrome_options)
+
     output = []
 
     for ch in channels:
