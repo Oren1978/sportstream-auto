@@ -64,8 +64,8 @@ channels = [
     }
 ]
 
-# 🧠 כאן שואבים את ה-m3u8 והעוגיות הספציפיים מתוך התעבורה
-def get_m3u8(driver, url, channel_keyword):
+# 🧠 כאן שואבים את ה-m3u8 והעוגיות מהתעבורה
+def get_stream_data(driver, url, channel_keyword):
     try:
         driver.get("about:blank")
         driver.requests.clear()
@@ -77,30 +77,26 @@ def get_m3u8(driver, url, channel_keyword):
         )
         time.sleep(10)
 
-        # 🎯 שינוי עיקרי: מציאת הבקשה עם העוגיות
-        found_request = None
+        stream_url = None
         for request in driver.requests:
             if request.response and ".m3u8" in request.url and channel_keyword.lower() in request.url.lower():
                 if "index" in request.url:
-                    found_request = request
+                    stream_url = request.url
                     break
         
-        if not found_request:
-            # אם לא נמצאה בקשת "index", ניקח את הראשונה שמוצאים
-            found_request = next((req for req in driver.requests if req.response and ".m3u8" in req.url and channel_keyword.lower() in req.url.lower()), None)
+        if not stream_url:
+            stream_url = next((req.url for req in driver.requests if req.response and ".m3u8" in req.url and channel_keyword.lower() in req.url.lower()), None)
         
-        if found_request:
-            # ✅ הופכים את העוגיות למחרוזת
-            cookies_string = ""
-            for name, value in found_request.response.cookies.items():
-                cookies_string += f"{name}={value}; "
-            
-            return found_request.url, cookies_string.strip()
-        
-        return None, None
+        # ✅ שינוי עיקרי: חילוץ העוגיות ישירות מהדרייבר
+        cookies_list = driver.get_cookies()
+        cookies_string = ""
+        for cookie in cookies_list:
+            cookies_string += f"{cookie['name']}={cookie['value']}; "
+
+        return stream_url, cookies_string.strip()
 
     except Exception as e:
-        print(f"⚠️ Failed to fetch m3u8 for {url}: {e}")
+        print(f"⚠️ Failed to fetch stream data for {url}: {e}")
         return None, None
 
 # 🖥️ הגדרות לדפדפן
@@ -119,7 +115,7 @@ output = []
 for ch in channels:
     keyword = ch["image"]
     print(f"⏳ Scraping: {ch['name']}")
-    stream_url, cookies = get_m3u8(driver, ch["page_url"], keyword)
+    stream_url, cookies = get_stream_data(driver, ch["page_url"], keyword)
 
     if stream_url and cookies:
         print(f"✅ Found stream for {ch['name']}: {stream_url}")
@@ -137,7 +133,7 @@ for ch in channels:
             }
         })
     else:
-        print(f"❌ No stream found for {ch['name']}")
+        print(f"❌ No stream found or cookies for {ch['name']}")
 
 driver.quit()
 
