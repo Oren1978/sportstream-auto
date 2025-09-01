@@ -45,7 +45,7 @@ def run(cmd, cwd=None, check=True):
     if proc.stderr: log(proc.stderr.strip())
     if check and proc.returncode != 0: raise RuntimeError(f"Command failed: {' '.join(cmd)}")
     return proc
-    
+
 def ensure_repo_cloned_and_ready():
     token = os.getenv("GITHUB_TOKEN", "").strip()
     if not token:
@@ -78,12 +78,12 @@ def derive_headers_for_url(m3u8_url, stream_key, ua_from_req=None, cookie_from_r
     token = get_token_from_url(m3u8_url)
     if not token: return None
     p = urlparse(m3u8_url)
-    
+
     referer_path = f"/{stream_key}/embed.html"
     referer_query = urlencode({'token': token, 'remote': 'no_check_ip'})
     referer_parts = (p.scheme, p.netloc, referer_path, '', referer_query, '')
     referer = urlunparse(referer_parts)
-    
+
     headers = {
         "accept": "*/*",
         "referer": referer,
@@ -99,7 +99,7 @@ def collect_m3u8_data(driver, page_url, stream_key):
     try: del driver.requests
     except Exception: pass
     driver.get(page_url)
-    
+
     try:
         # Find the specific request that contains the stream key
         req = driver.wait_for_request(f'.*{stream_key}.*index\\.fmp4\\.m3u8.*', timeout=25)
