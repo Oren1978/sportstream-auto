@@ -1,6 +1,6 @@
 import json
 import time
-from seleniumwire import webdriver  # ⚠️ לא selenium רגיל!
+from seleniumwire import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -64,11 +64,10 @@ channels = [
     }
 ]
 
-
-# 🧠 כאן שואבים את ה-m3u8 הספציפי מתוך התעבורה
+# 🧠 כאן שואבים את ה-m3u8 והעוגיות הספציפיים מתוך התעבורה
 def get_m3u8(driver, url, channel_keyword):
     try:
-        driver.get("about:blank")  # איפוס טאבים
+        driver.get("about:blank")
         driver.requests.clear()
 
         driver.get(url)
@@ -76,23 +75,33 @@ def get_m3u8(driver, url, channel_keyword):
         WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.TAG_NAME, "iframe"))
         )
-        time.sleep(10)  # זמן נוסף לטעינת בקשות
+        time.sleep(10)
 
-        m3u8_requests = [
-            request.url for request in driver.requests
-            if request.response and ".m3u8" in request.url and channel_keyword.lower() in request.url.lower()
-        ]
-
-        for m3u8_url in m3u8_requests:
-            if "index" in m3u8_url:
-                return m3u8_url
-
-        return m3u8_requests[0] if m3u8_requests else None
+        # 🎯 שינוי עיקרי: מציאת הבקשה עם העוגיות
+        found_request = None
+        for request in driver.requests:
+            if request.response and ".m3u8" in request.url and channel_keyword.lower() in request.url.lower():
+                if "index" in request.url:
+                    found_request = request
+                    break
+        
+        if not found_request:
+            # אם לא נמצאה בקשת "index", ניקח את הראשונה שמוצאים
+            found_request = next((req for req in driver.requests if req.response and ".m3u8" in req.url and channel_keyword.lower() in req.url.lower()), None)
+        
+        if found_request:
+            # ✅ הופכים את העוגיות למחרוזת
+            cookies_string = ""
+            for name, value in found_request.response.cookies.items():
+                cookies_string += f"{name}={value}; "
+            
+            return found_request.url, cookies_string.strip()
+        
+        return None, None
 
     except Exception as e:
-        print(f"⚠️  Failed to fetch m3u8 for {url}: {e}")
-        return None
-
+        print(f"⚠️ Failed to fetch m3u8 for {url}: {e}")
+        return None, None
 
 # 🖥️ הגדרות לדפדפן
 chrome_options = Options()
@@ -110,9 +119,9 @@ output = []
 for ch in channels:
     keyword = ch["image"]
     print(f"⏳ Scraping: {ch['name']}")
-    stream_url = get_m3u8(driver, ch["page_url"], keyword)
+    stream_url, cookies = get_m3u8(driver, ch["page_url"], keyword)
 
-    if stream_url:
+    if stream_url and cookies:
         print(f"✅ Found stream for {ch['name']}: {stream_url}")
         output.append({
             "id": ch["id"],
@@ -122,7 +131,9 @@ for ch in channels:
             "headers": {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
                 "Referer": ch["page_url"],
-                "Origin": "https://www.freeshot.live"
+                "Origin": "https://www.freeshot.live",
+                # 🍪 הוספת העוגיות כאן!
+                "Cookie": cookies
             }
         })
     else:
@@ -134,4 +145,4 @@ driver.quit()
 with open("channels.json", "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
 
-print("✅ channels.json saved")
+print("✅ channels.json saved with cookies.")
