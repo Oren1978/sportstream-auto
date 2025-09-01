@@ -2,109 +2,163 @@
   {
     "id": 1,
     "name": "ספורט 1",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=2181e328e6c4d1c9e984da1424b0ba1dd072b9bd-8601eeb4f61642d60c0ef61fc3409530-1756761106-1756750306",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT1IL/tracks-a1/index.fmp4.m3u8?token=e3d6cf7f82d45bf99b0abffd71852f583daa0d63-135d18bffa8d1c9c4a84d9c5b1f658ce-1756761710-1756750910",
     "image": "sport1",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-1-israel/168",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "_ym_isad=2; _ym_d=1756750607; _ym_uid=1756750607129445599; token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQSAAAAAAAACZUAAk0EWYzoO8j8A2R5AbghXiv2K5LK6ccv9Q908NmuYIe3HLj4AMbdDlF-tgSK9jQWEY3dcPvQGmJJ0A7DcKRnaMa5mqclPf8T5jhdm8fHtMJxquqU9dhNo__6wAVNNMfm9v6e-Ivlsuj7NlDoPgrLd0Gx5Twbw2fHgtieSEwleufL-K4GeNb_srED0oBeNKPG6wRlh-mkm1jkCL-7N2GKRQafDg3zFYTkffMuFIaxebMn4za3q-zK-DmmAEcdBr084RlCuFjDoid9sC3FOTL8YC4B1482Gjh0ptZ8Cd-vwpaWJHkpkzSdGJ0VzWc3T7ORgQJCqPWOyx7tSiMSn95nw-0vCun7eUggyMKEGxAoaLbjB5CGv_dWBQr2hc4vLdl7G8AsCoq6igvt0iIzwuyOrK7f8DG4dGvrxX9r4t83k_FVJ7LPe52CEEb25p5KuuzrLCsTeu6J9TVp61-XQHw_xeJnZ_R12ta-zqQeFFzlv753lJ96r_Q6QHI8S13v3oDbSZCb6vrgsOz7gRTOyUcLd7jJYPf2aJMHMXgUWxmI_klesaVkRmCk6yyKsoHfGW09UEgGgi17ncppUsYrJb51ZXEzk6j9iC9IFzFz0bb6euGwYxzRODD37JRKgiglb4p6NjSrMlx38hc3LLFjx_pcJMMPfK8gUXLVnDz6PWjpbA919CKKAgqZMLA1wSgFkelI1vOQC_vOLdlBuF7kiNQqF863wO5f8IILVk3QIzcIyvtMvnxH981jG6jfAh3NcmskZXH-HzDED4trh3Wc3WHtcJrSwDIa4Du7W4Jmq8xkVEqZApTV2IC9FDv5Q3zpCUyqDCkB_3hNQHKObi_LrPCxaJcwkP4XGMynersutKBoMuntLMoDgyROsq6qL7YT-bWW0S3YnCKfxuxf_-VjwLBbH0NiHwrjuC0YYUis-1UN6QSttvdzGlg75xKcqhTlyMh_g4t8l--t-tYj2M7Wqdjt1VpjUQCS5o6zO9tb73LXOtqGgViaoj4ul0u851-mxpViQQsfpOzr_2nUvtwqv62bQohCuGU7LUQuBUQUtZv9wZZ0Fv193hhqoOx6oODw3d01DThO0pzokW1VU-Lx4z4nlIvV1fK3jyYw7_Tqo_N5w60WYsjaVYJwWnrYBMFJ4WmixvLlnKe704Igo3BZ-TAaAntN-iKqcBQDmHvi1CA0aXuG9NascLRCl2Xykx9VgRm_GXZqKJeHuGUJV8bj9F9B_u-eEoSidNlPv4qljvdy8TbH4yHLk6F43ZQedgc2vmmnHiShBc2nW3n6K4aBJYLCvm4e7IsIceZ4V2jtwSOD8BCoiFbhPmcGmmpoHqIEYyarBvEwMHJZ72JnKyQmtOhKptk4-1kExkopf-T6VYRYdjFb; HstCfa4660312=1756750605344; HstPt4660312=1; HstCns4660312=1; HstPn4660312=1; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6ImlCVFVpTXJRbG95ejArQzVBY1VtS0E9PSIsInZhbHVlIjoiOWl6SnVnN0N5THZkeUtuVldFYlBjRWlVRGYzQTZSMDZwMGUrT2srckxPM2tXNVNHdTM2bGVGRFE1Z2JuWWYrQm9BL25NdTZhL1ZLUnB0OEFvVUp3S3BSNTZuUHVETlBBanhUOFFmTnhFL1ZBRVplR1pFY0tDMGswSkxEVHhLUGkiLCJtYWMiOiJjZmE1NGY5OTliZmNmMzZmZjc5MGY5ODgzZjc0Y2JiZDE5ZGQzOTQ5MjkxYzA5NTNjYTFiNjQ2ZDZkNzFlN2RkIn0%3D; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; HstCnv4660312=1; _popprepop=1; HstCla4660312=1756750605344; laravel_session=eyJpdiI6Ik1qREFTb3k3SUdvMG9uREJ3Zkxkb3c9PSIsInZhbHVlIjoiQkxralo0dlhnVEQrOVFBczFFbFdjWTluZXJUTk5BNFRQeVo3blRIN0xQckhkMXgxOXZFbysyTzlURUErTzYyUDRwM2p6aTNBck1iRTVIdlZlYUZ5cTVtZVpVYW15a3pzcnMvWWYzbmhNNWVEc3o1d3huUVhQSUxmcFNvNjJsM2ciLCJtYWMiOiIwZTIxNDBjMTg2NWNjZTUwNjMzYjFiZWE3ZDM3NWRmMGFiMWY0NGVhODk3NWIzYWYzNTgxMGI3ODgwNmI3YjI5In0%3D; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT1IL/tracks-v1/index.fmp4.m3u8?token=e3d6cf7f82d45bf99b0abffd71852f583daa0d63-135d18bffa8d1c9c4a84d9c5b1f658ce-1756761710-1756750910",
+      "https://beautifulpeople.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=e3d6cf7f82d45bf99b0abffd71852f583daa0d63-135d18bffa8d1c9c4a84d9c5b1f658ce-1756761710-1756750910"
+    ]
   },
   {
     "id": 2,
     "name": "ספורט 2",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=a7067975b972ae57e087dc4df149d2dd88b618ca-5c2e91bf98b9e3cee0abe9c3ec7968f2-1756761122-1756750322",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT2IL/tracks-v1/index.fmp4.m3u8?token=cf2f99e9f1ac6c729d392b14196667fa0fead584-9e6a2b91bc3589a73846cd89ca461919-1756761727-1756750927",
     "image": "sport2",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-2-israel/169",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQyAAAAAAAACZUAAmY_uEUXYnbcq4mHlAXBw3lE3m57dzzjqCujQwcyay_ZqaSLYFEi43MG8RMai7qTB3NGzmLnCM3k0kizPanZbBumD5P1Bf08TEg74aBS7P4stq-WmzmItZWbmA4BU7af10uyGgDMGnmDJifav84I15hnIdqHDzo69fL0djej2VHR6oorOnPwCwGXrU_qnSaZdHUesy7vAmpKfWKp8K6SaLDE7bb7MWrwjAHqt3RvNMDiIA-lFr4wEHzLeP6An1hz1DJ4cReWzmWrR2T_FwZKzoi64UJKRFFvh-Qzc4RZCg5Pp0-UXT6smUQWfr4gTfJtNar4GfXAUL_QLLjpGFeZSVI_PYrvlFZJYZqJB_u3yg6I-22610cfZM9_BvmAMVn05fGiYLPZhpsEiv7TU_6bK7UVxYe4W5NybyZbKBR-7wb8czz4x1PpX2qGq5cg-GGPRhQbsNgoY_SE5o8VebyQYbGrnfJ1t7DFwXSFoo_ykNsCTwidGoS7ilzWYysWD4PNDYuPoXLrhnH6hRRbV98-EQwyXLRL54cNRg4vR-ZlvnDPJjy1xOaGx1d67jzv3cFvf7KWcl4vecJwvat44f59jylhe0Q4FR3joNasiObuUQwGOLqWFclaisKN2cD8NhNtFJ6VgYq0mY0UIaUP37wizqM6dOrnDzdLZauSSutT6YCOJ0VJtKEkuU0EF8j2bd27g3Oa8wqDdOSZchMvN7sW1ckIAEmynBVTrrpSzxcDEFeFsUTwNbcraT40DBbr8AyJqVdLU700YWzdpCYg2otmkx0_pqt8cmd-C1QLhOBpTV1SSjKIKVFOgh-MAHSBHuf1smLL4Q4s19hu1eXfuybY3loCq8xhKMnQI00Cmr395-Qg8ql-effZEtej7M4gH2Tmp2j-JApjtNXcYkm_695c2REnA_DcGHF39vwTiKeF5vvhZKAiDT9hwwN_Bc_8TZuhPcQtkZc8Q4rwAUBFPJi2BxSRsYcw6oBYPY-fmkP11A6xfjAAMtSeVkU0D_ZNEydqeRGSEPtHRyI8jZHlAdaEew0Df7v4whOKb-xxuVK8PJqRO8jZSEM4Pmnun5e7EF7TaPHqPu9xPbq8_27ldPG1oXUhQ8Zq-S88-mS7AC5snkMoMLeJLtppz26bpTKXTiRTeJZpmZ4YPP47IW-9d5G-UcB0YObe6HsGFZjFh4WqCQKQzS9yAwPOrpVxcjnBNzorImQB5aY8F0GA59hDjnzWcW1fab_V3mGP4hpIzdCpK4UYTKoAISdx4yRJkNqNgjtzqhwq9QauUj9G1lMJdGE6zm-RAVTjcFw1_KqeFJujp2CYVLbc89gFcBK_9axlFd5iC1AI8v-c8x3ym8S4eeh2UzkARvWG5gYlBb1EcNMNTTrpJmmgqSIO8I7ZjMOiq4mwDTeJc2j4Lkh335L5PfX0UQ8; laravel_session=eyJpdiI6IjNPdTRtWkZhUzBvWUtrK1JCTjh2TVE9PSIsInZhbHVlIjoiQTFETDFyeSttbEJyWm10N3dOQVIwMmVDZ3hvWmRJd3hmejFnbWdrWkxpSkpqZkx1Z3poTk84ZjhQQStnWTh5ZVVpMWdYQkJrZDFxWHNicXBBNHZ0RlRPUi9yMGhZbUowaWQwQU1YWkRNZDZRdHdDeTI0OFRMdmhiUnZDOW8zUEwiLCJtYWMiOiJkNTEyNjc2ODQyMzc2MjUzNGNkMGNjNzFlN2FmOGJhOTBiMzkyNDhkZTJkYzNlYWZiYWNmNDJhNGI4ZWVkYjVjIn0%3D; _ym_isad=2; _ym_uid=1756750607129445599; HstCla4660312=1756750621973; _popprepop=1; HstCnv4660312=1; HstPn4660312=2; HstCns4660312=1; HstPt4660312=2; HstCfa4660312=1756750605344; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6IjkxeFVpanFMSnF0VjRHRGtWUjZ5Qmc9PSIsInZhbHVlIjoiOUFZQUFCZG5Ld3crZVd0ak1LNHR4QTk2YUs2ZUVZSGUraEd5TGFqaU1EOTNYK0t1UDdNQ2RGTjVoZVVmOVpSZlJLaXhGMldoTHVvV0pKaDRUci80UFg2THNUZ0xubnJHOVlWN1JQdjdhVW5CczZQWEhOeitrTTBCVEtKSXMwT1kiLCJtYWMiOiJmMDFkOTA1OTZmMTI1ZGM4Njg2NzYxNjM1MDEzN2IxZWU4YTQyOWZkZGU1NTFmZjE0ODhkOGVhMTBmY2E1YjUxIn0%3D; _ym_d=1756750607; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT2IL/tracks-a1/index.fmp4.m3u8?token=cf2f99e9f1ac6c729d392b14196667fa0fead584-9e6a2b91bc3589a73846cd89ca461919-1756761727-1756750927",
+      "https://beautifulpeople.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=cf2f99e9f1ac6c729d392b14196667fa0fead584-9e6a2b91bc3589a73846cd89ca461919-1756761727-1756750927"
+    ]
   },
   {
     "id": 3,
     "name": "ספורט 3",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=1e401100db298d26f46ded91689f415caf6fe6ac-17474f550f69b62c2c8fc107b52c2817-1756761139-1756750339",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT3IL/tracks-v1/index.fmp4.m3u8?token=23d55eecb8bb681f2d2edff95510b29966f5d1c7-3394b4aec890090e6e9b90690eaaf30b-1756761741-1756750941",
     "image": "sport3",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-3-israel/170",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQyAAAAAAAACZUAAm4C9sjCR0XzZ_QNggqtlJBC1rtg_WStNojDaPp0aGid-bz4JcrOTRcRwlDnAxGkZ8tYrWmUAVFpKnYy2lmCXFaTwKan7klj6zEzRwlpoRqvziDDvdcXB6gSCB2EEijLMzHzDZTO0e-IZfxAFhPnGT1o60Fh_LigvLdr2wKSYrvZGABUZcxdWdVhzIlnEn8048MnKC_hfEwgYH0PMyqPe9gpME7l_sTXEUm2yMSEOGXiIen1YaH5gZuFiXZb_1vMSYT3FUDShTQaYZLGLU6h8x879hdGkYxPsFjQxvqSNftXi20YpVo6pv5KzV8aenHucgKgY_-YdDivsZiAQbo_9cSDHWzQLZLm0YAl9v7rHpKVCdjUzITUSRNa9cguiVjMBfdV8aEbfb_aZcqHgqLPJ_z7FpZ3VxwxCo4__21eBLFsnGGHiptcfadcD5lDIJw7iLeektM6bGB4aW9Vhzfql8EcnieJM7HG2Mm50jmi32mZwqv3wtPwXwR4dVRwOVT6Y-RiS323cadrua7jpzHs9Ww-4p8if7KfBm1lytVM99Ar_ktgmVs8xjs2KKPLBDu4l6bZBsKuxjUOrgeUnFEGLYUSG39LJvmRckDl_aiq3bun1DlZtwlOfGFKqrI24AlKOPBkzTH5DnzfkHHSlWmLFtWhbYKUrK4C72977apK4L__oY296qL_xrpR2wEy5kqb3Ra5HpXHkAhmnH8iaCnNXvCOVzEVw5fjcGfgBbzsVt03UIAmRqFS5ynodW_AoLEDwWb08T1QZOAkBrrraHjHQpWLyjDgg4HiECAagki0F1RQreZDNNs6WJIgZrw_GF1IYCJRZ3B9ESndV-bKmeEu3eW1PXdNZRjfT_p362o-HKrmNU6TL5QdVUaxJV0a_HViMW4F5HRRczS6Nkcvvrgkz1WXaaumTr_HoU0m98dF5Rw8-sa4hjcuA8T_tWMxrUjn9aEYrZJ9g-SWLbYkIvfwIrTSE0yKECIPUOPzawYSbLY-Ck4XHZDlpDW1gB3SUsQofkPlwc722_wwvBUiEa_PXQIDA9ix7Ga6VY63cWP6TZboP6GCa_L7tw9TzEWHrno0L4WWQ7FWLUQ8LeFaAjZ-2XieLla15cSS97tX0AiXP44adXXYxRrQCMm68u_pSSeD9Z_HB60grPi-EFn4AQX2QSv4iuwFQq548N1Kzgj05xwqA-4tKekaFy-EsrNkaBosQ4UwulqmDeM_kaVPjTTx4WKqeBfJcrZigC1AmJRXwmVvqVKJ9zGoX66sVO4HR4YA1aTRniAD6DkUy9cesY_VebN6ToZmknkLwOACLlE-UTZVFCMhZtrVdXH5Vyn9nsPJYPGZk_wsoH7AUX4Cyx1u5PdRsA2XcNDxulmIE2-U21bjmf3sYabc5-HUFwTLVWiPk0DcOtDkUqt7blihkK9Rn0c; laravel_session=eyJpdiI6IjZBVERzb3hsVGdFaEowNlZWTGlHclE9PSIsInZhbHVlIjoidjl5SVU4VkIrWC8wQmZadUVxamFiU0dSZTdUV3MxTnN0YUswS0Fyek0yUWIyUHRSZ29HanQzdVJRSjJkL2RCNkpKWDFoMHE4Y2ZvaGdKdTlRYUk3Q3RRQTQ4emZkSVc3RTNJN2tTWm5JOXBwRkNzSkZjN1ZLR2NPNDZTN3VyU3AiLCJtYWMiOiI4ZjcyODU1OTE3MzkwNzgxODExMzY2NWZjMWJhZmNmY2Y3MDY3Njk3NjdlODFlNmM0NDIwYzUxNmExNDczZGQwIn0%3D; _ym_isad=2; _ym_uid=1756750607129445599; HstCla4660312=1756750638572; _popprepop=1; HstCnv4660312=1; HstPn4660312=3; HstCns4660312=1; HstPt4660312=3; HstCfa4660312=1756750605344; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6Ijh4bmxKNTduWHo0bjZSVWN6NHFIdGc9PSIsInZhbHVlIjoiUjNGbjNWVFNkU0pXSlNrdDlXcGplM1JqNE0wSmJBUmJPSmtqVC9YNUxDbjJSY3F3QStJeHFDczBlNkVTbDNmelh1a3VCUEhmUTVMOEZKcnFlSHE3TE1yN0N2YWw3YTIwOGVTN2xvUE5POUNCYkFkcGQxWnVLSU9MZHppYXE4U3giLCJtYWMiOiJlNmZkYzhhZmJiMGZiY2ZlZjU0MWRlM2VmZjhlZWI3NTdkOGZkNGEyNDZhZGQwMDVkMTdlMzE4MWQzNmYyMzNiIn0%3D; _ym_d=1756750607; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT3IL/tracks-a1/index.fmp4.m3u8?token=23d55eecb8bb681f2d2edff95510b29966f5d1c7-3394b4aec890090e6e9b90690eaaf30b-1756761741-1756750941",
+      "https://beautifulpeople.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=23d55eecb8bb681f2d2edff95510b29966f5d1c7-3394b4aec890090e6e9b90690eaaf30b-1756761741-1756750941"
+    ]
   },
   {
     "id": 4,
     "name": "ספורט 4",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=2be3677580a4744b4ef3baa9acb0632559a35a8c-974940502a71420ef2f556db42f8e798-1756761156-1756750356",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT4IL/tracks-a1/index.fmp4.m3u8?token=20ff831c21fda03c506aa5a14c9727ead385b768-811e9decff590f78f1bd890618352650-1756761756-1756750956",
     "image": "sport4",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-4-israel/171",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQyAAAAAAAACZUAAoKiQ-fGVGp_Wc8MsOD1rJcBjsO72RMYs-Jiwfzom4CixLLLnAv2K4-S_Ds7n7ECkVRiuUsf-S3r-qvrjFJQnmcDv4HxyDJET0rlvEmO1dWHqAvcL5_aozT2nKRdPADzwhyaMLxLhNE3pexe10AOYgFAPHLDuGhFqtl3oLst2MB8e1dtzZr-Jhiszv6-nzfkZYYs07szdWzwXjtnhaOrdsABDJBYwDQNfWXxm7H6lToVpO_wy93Pvmpvbun3NaoZJHfMPigPiqgo8qm3bMS1tCC6yRUR6FcqNVRkqIq3555q27pCz4EDU0z-9LgG5gw6OOM9iLZWksu2CcE_32biDSjYlPWZPx04K8skl4cgCbQb0VGWOgYGCX8mmp5wRnO7blEZ6RVmaZiBi3EgAwU61xVDZoPJB0g5uXoZ5CztNGO2pKqWgeQU6jmeyER_k22SlNLG3lY-PT7UFB2J08C0ujJ8b8lJZo4qo_JdzHdEnQ4744rUPEUibLqSs_jarI3NDkPPf_xqb8ZiBayF-xkNPaH4Y0Wv9vEt2BAZh72eWWuXf6_nwsC3Gi_XDAo8Wk0i04PkmYM1Lp7RlMdv8RkmF4VlVYBHTKAFr-LLe-gKWdtrLtAIumNU8g1FFN2dpwfYMXJwvq69DUMpfO2GDHUDZhYRsLPJak_vY2YJS3LRPZf_CZobhwkOCcMCcs8eV6PNbcCH-dXeFWHK8A3BKXtI-4zkvXHRN3f6jb5Plq4035eYZ2oFxESMlg19mhf7s1m2S2Eo1krjZh_s7UOocQSw0PNLMdTj4TsE9ZSzJE7VNYKl8UFJxMT-k7T2UY3E6BkYk-X0kZse21028fKD1rVB6pCyudY_4x-AxkZmC1rT7FpsoN018uFeQbWuDQ2v1ap2EXq5qdXuJgAMxhCTHp0kRt5bvp_makCmqdkbgOUSHapFMsSiF-bCqbO9h9lE1w3xn6sB7qggZau6e3Zsyvce4JKVInwDw4m2dAJ8kGuqQnazsB39_uFl6tUjrDIVor_d7aDFcorecjxgwbdCvkmac3E2vhwHCJaL5J1sbMVjLjVSyCVu-vglO5B6kUvlx5n0T-76bMAPyB-CTatcx0TaMjDZ0ZCTUL7n0DwzICdzi-cMekX1oUXgh6FkVuQdcOYfwejN0TQdijSu5Gg9hmmZQ9hW_LDzgZDWgYqes97dPseEnSfBbRy9tZD0mz7WA9ZGoZpG3kSDyKvp6Fdds9d_EgCbxEM_Z0B1beRb_co3GHDIFvHCcRpC_0p61gblk2VoJnN1kCBjvElCVtWbmHMPFYTjOfFRWHz0vG-MNubB9m0ClfyKZ5ZVUlAOfID_CrS6QRTdumBotNaq9cMLnKB1tpweHC9UzmH8tDm7Fy-xAzUL7iLxPbCinMwzFaTaJfDmVwGsUDMWXUe8p3z5-fi_BI8; laravel_session=eyJpdiI6IkxBdDMzL3lIT3BudlBTV2FFbjVKSWc9PSIsInZhbHVlIjoiMWtoQ3lNMXg1YW9yQ3U5bjZPeTJKOEIxZzJEYzY4M0trNG9XL2RoUUdJVWtWWmdMZHdMZGdBVyttZXc5RzJxNGxmc09oMWthRVBmank1T2V4aGFkMU5mOUJmT2JUSTZERElCWmp6Y3NiczFhNmNYUDZkK05xcXVEWHJCK3Z2bHkiLCJtYWMiOiJjMWM1NjU3OTQ2MTNlMzI2ZGE4MDZhMWM2MTcwYjhiYmE1NWYyZTFiMzk1ZGRlM2QwMjRkMjlkYTdiOThlMjlkIn0%3D; _ym_isad=2; _ym_uid=1756750607129445599; HstCla4660312=1756750655393; _popprepop=1; HstCnv4660312=1; HstPn4660312=4; HstCns4660312=1; HstPt4660312=4; HstCfa4660312=1756750605344; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6ImZoa2lyazRpNTdIK2hkclIwNm9XeWc9PSIsInZhbHVlIjoieHphZzJmcklidDYyY0sxYlpYMjYyaTFqT0RDS0tzeHk0Zm9IMHB0Q3FyKzlQSW9RVXBNRld5VUVqLy9kN0FlMlIxYlUxVmVDRmlBN2VKeFRTakNqMk4xRmU4NkNDZjFnbW5TT2JpUVlWOWx0UVBwWVJzeUxGTGlNSGFScmtIbWIiLCJtYWMiOiI3MmFjMWViODQ1MDVmNjIxOGM3NmNiMzUzNmRiNWViODMxNWM2ZGRhMTIxNWQ3NTdhMzJhODMwMDQ5YzhlODQwIn0%3D; _ym_d=1756750607; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT4IL/tracks-v1/index.fmp4.m3u8?token=20ff831c21fda03c506aa5a14c9727ead385b768-811e9decff590f78f1bd890618352650-1756761756-1756750956",
+      "https://beautifulpeople.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=20ff831c21fda03c506aa5a14c9727ead385b768-811e9decff590f78f1bd890618352650-1756761756-1756750956"
+    ]
   },
   {
     "id": 5,
     "name": "ספורט 5",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=36400f8e5ef66db74f288a828156cc0b4151a24d-8bb5c0381bd9ba805918d16bf9714bd8-1756761172-1756750372",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5IL/tracks-v1/index.fmp4.m3u8?token=5c2f3b9852a60a060ac7872df639f0d43a92e98f-7692ef9b838346fdbe805cef513a5d6d-1756761770-1756750970",
     "image": "sport5",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-5-israel/172",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQyAAAAAAAACZUAAjWY_E0RJBVntFxNgTGoJOnPoe55pGofA7EJ0dz6mRSa551T1UlIGlpjMdcpxCog8Te2A0QXKQTI0b3Q8ntT7UlJIM54CNlPqZh4h5sFPkFudxMXkLx-elH7rujiaM2ToLCGsgLPYOdShRhTGCuWKzcwvC-sQlqX5lzuDp95PpydKX_Jgx90voBTnhfS8elchFITieMIJGDqJGiaAig_0xu2JP8YCPZxCyqsXLPqAzmZB7CpQSSJCPDn3qAzC844DTD6qjztFedoaFTf3H-Lf-q3SPmb8cTBVW-HXwBjRavUAoGkabeltaeO2Tfi5GOyYm_1BhHiZWXNM3_WO59nfXac1CRN9T_1shvVcu9kMb46cRwQIxrQUQKHVr7IKuIAYbmTaQ3zJDK3hlYPd-7sUNGlwn7mdmWS6gZnt3nDhDhuajeiaCmMGJ_JTAuwrcovVf_EDDHvNWpWMdDlOTdgMJLA0xPUxnhNxzaTu55MnX1VUBKePk7B9_VodUrWROmF9LetEOSsJETLPAWHNqF7T21E-Aj7swzO5crwD9wg-SgTRgDWlNgIWMMuKLusRPHeRjxzCaSAYgirW5UidLKxHM_UAfii7PPhp7qfB7NLzD0MR2-GMTNTjC9zHgyk-Crj3K560cZ8hxYDEUHZR-m_HbRq58WHHowyVXEoj0H2y7ysPKPUq3MguN-MghBV5WtwFaGWfVpXHC9YLW9x5aqstRGxts5TmATXPXCrwBSvJ9BLteav-7znZf9tU3fOg28_OL2KjoMYxXqO053s16r9TmSjMkFo_7lO6QsORzzMC9K_N6xbmK4ivPD9Usxz3UApIQJM0CkI9XXCilJR-XjTmYModHtnc9ialQeRwShr_7sN2mDSX6Df854a69obfc3u7r7nwsvWhArtuOls3hoQ548mufh2DweJsjM9ocJZ6ZMw2_WmtaAmi51mo8MRrcQmKuSvYiLZ8pC_d1XYUKvZrlZzETgPM92v2rhbhoDPaIs8QI7fKFYJmfC4RaAsW-Azy4Tsm7aMP59S3tNXMD_PmD96-10X5QXiHUPWoQq8T_rTWbtQgJ3P9P_wzlF2esbB3bDVSNjmG24lKa2kom-0bjrNy-Lep2P9iUiGi1Rz3eKambqnCTSeP265W1E6PE-p7EQ4tM4m6qJGloclpI2H_8BitTHu1q6kWekF5w48PUwGzMk8KT5ZG96PmH9OiuB0BF6IYOwFt8DGfkKZM2kL2AQGjySp4CMSMdoc-8q_WgMfik8wYMK8iQgLkmsKPUKBEGzewuc2pH0wWS3Q2jqsMtC_7fdaJ6TOeZEnpgDnkJXvQmkHiTASzqDjIHZIWRd6CV9RtxMXRDc6W8N1_HX-LhHWUeBa7O9SrdvuN8zi2OD4JYW8eYJu2boAjWoBQKIlUXyeeuWlQiHPNAtbihXwAhA; laravel_session=eyJpdiI6IlE4dFhQTTdYNHFPZC8yZ3FxR3FxL3c9PSIsInZhbHVlIjoiZGZ3OVQrYkVvS2VrajNsUlVuZUtFZlRrNGY1aGNMczczRDRQVEZ4dHR1Nk1jZVZIU3l3UDBsdGJCUTNJT3N2WVRFVzJOT3pwem93M2l2VnF3QlBobnk4anBnVTA1YzFRWnkwb0tYckZjTjMrdkRKOUhyREIxMUN4ZFh5YlpDemEiLCJtYWMiOiI2Mjg5OTZhNTlhYWRhOGVmYzE2MThiMDMzYmVhOTY5MWZhZmViMjE5N2NiY2Q3ODRlOWU5YzA0YWU4NGM0YzVhIn0%3D; _ym_isad=2; _ym_uid=1756750607129445599; HstCla4660312=1756750671885; _popprepop=1; HstCnv4660312=1; HstPn4660312=5; HstCns4660312=1; HstPt4660312=5; HstCfa4660312=1756750605344; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6Ik43RjlsR295MVNWWmNlaWg4SHE0VFE9PSIsInZhbHVlIjoiRW9sUmVqVzhjZWxKME5Sa2tHNHZpTk1Ic2ZHd3hsdnplY3BLODcybGtJY2NJRVVkODV6aUt6UVBuTG5CYkhLL0VEWTBEcEQxbWczMDlpNnVNK2ExUkNzOWFnYkxhQ1VZM1o4bFRjRFVselJmQ0JuNzNwSTVrd29rMGVnL1IrenQiLCJtYWMiOiI0ZTBiMjg4N2I3NmU4NWE3ZTc5ZTMwN2VlYzQxZjQ0NjRmZTEwZTZlMTUzNDRjOGYwYzFlMTI5MDlhNjE5MmFkIn0%3D; _ym_d=1756750607; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT5IL/tracks-a1/index.fmp4.m3u8?token=5c2f3b9852a60a060ac7872df639f0d43a92e98f-7692ef9b838346fdbe805cef513a5d6d-1756761770-1756750970",
+      "https://beautifulpeople.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=5c2f3b9852a60a060ac7872df639f0d43a92e98f-7692ef9b838346fdbe805cef513a5d6d-1756761770-1756750970"
+    ]
   },
   {
     "id": 6,
     "name": "ספורט 5 פלוס",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=c50e7fac6d433946bd29fcb8eb8b840508de2fab-94ce374911b748599cc90d98e384b5a3-1756761189-1756750389",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/tracks-v1/index.fmp4.m3u8?token=6f17069990b71f1d639d38736cf4845d90f06a4e-9389c60d032e872cc8610366bdbe674a-1756761784-1756750984",
     "image": "sport5plus",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/sport-5-plus-israel/173",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQyAAAAAAAACZUAAqFwlgUe0ohm9Q0SJxrKW7Ja80v5OmqIvuYmLyg53ZZqTmGP0x3tfnTCussjFcaqx6ZN1EE--0NLu6mStQFbTzVDSpXD8S6bu2Vf-pcO2NkwaFgp7D_y6EMemjKQjnoNrkCb329J_spSWai5lM1Y6GN6de0hssdD_3AoFl8P4NFIrJUKY5n_juWT2IVCQmvBoP6RrwtcHWyCKcaYjF3VZ1Sy5S4Bt9QhWs9TSSQstoMw_CbJa_ghXnRLekbqn0L9XhR86MAq4IWv-uEHY4TJovWK3115kBj0Bqg3DPTBRAI__js8oHq7uYDx9OemH-flrnrSXVt4XoEi7T9fEQK3SHG8Tx9UR_C5UU1SaWUfbIYo4mWmle8wFHS_hurnNiHR3KyvvLstmJYOUj135qoiaiUWmaGV6FTTs1i7uyYuSAbT1n9HV2uFjtcqqhsvbWhhLg8MNevhJkwceA2h92-HBi0wsBx9CjQSUTTEbZVhBoDGOtBMb6ZJU72trBa-h3h_yNc18FhHSU_xcqaXDVFBTxK8LfRBlLdKXnmVy-jUUBNii9kDKlr6xQLpwfPwvPoTT5AgsMyNvYt98lg1x2uMqZsh6IRkY3091_t6I54YX1G4fHL9YbFU0qGBDjf3DY0HYqU49cgl95IHLQkdAhmuZTnA286uh2-eP0peY0nZlzhx3W5DlqFahXelOY3H9p0oSvpzk0rmimgUx9qEuR7nz5sFMp66Tu6ZpU_Iao6JfxQ-3Iw_lLyha7W72YQKOLKK-AfQErlqwHuls2B9_Wv4FRrXpsEkfGmY91hsVJUbBqcqwZUJUPHwjSvVX67q8RKMb4Na5gqOEOC7pZKrfWHbd1ISy7pYgSNaopZnsMz3JSUgo2-gjSA0IxGFgyk2BsBoIG6NdprP5kMIOQWDj56Cu-2sWN0sZJrA_YGku8S_MSkFLdh1VpHwQT4Fv1X5ET2LGdMkPOxwZ0GWgpM8MZNOBQb2fWx31lcrtEoBIq4fBTlyBbTctGi7WMDwcrcTpXcmja0pwfy9rRjb_FPRNxlkB9YZrrVDBExRR0FPGbb73WXzmkkKYp_fL22JSUwRzAijgOVolaTv5014RcU6dJ-ITY4SHYTlbwz2obCIuJTtsnqioagvJZ-Jgz41jFM8gi85WKh9Nt8BgwI2eV95DGorDFEbUANov4mPjuAE1nhZODhGF5wQKEIzeeJ0NMrXzo8Doqqpa0ZY2RCZ7g3FsQpbYjHQ2rmQVoX3BfvTRs9YuSyaZx5q83dDFJhJ0nzvjudEQsiLOpKmeKfGz9JMDYGqo6ZMCD6Ho25GdE7ulioe8SKcgBV_cKR-3nbsES2Rcm_6C7CwgGo-xEU_6bKjH4iDlnwjIAFKxOuhpWyaOcnnUMr0RTNj5Ss_XxnZyyhEJ4DflMiTxGnqqAs9pdg_AExtSTc; laravel_session=eyJpdiI6InhLQXFZcnVNNVRJQ2xDUW1HSTB3c3c9PSIsInZhbHVlIjoiZmd0c0JTUm1EMWVYbDM4U2pzc2ZJaWhGdFBhd2lqV29sUUk2SnVRb2lrMXBlaVIxbVNldmJ6OEEwamlkTWdLTUZzNHg5SCs5U2RIdzJCZGdCcGtRbzBDaGNDaWVkVUROb1N2RGhJTzNVOTNqaUVZcWVhckt3V2krNTZNQlZDRkkiLCJtYWMiOiJiYWY4ODI4ZjUwYmM2MTVhZTM3OTc5OWQ3ZTMzMThiY2I3MzA2M2M3ZjIzMDM3YTI2MjZjNzZmZDc5MjlhOTljIn0%3D; _ym_isad=2; _ym_uid=1756750607129445599; HstCla4660312=1756750688149; _popprepop=1; HstCnv4660312=1; HstPn4660312=6; HstCns4660312=1; HstPt4660312=6; HstCfa4660312=1756750605344; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6IjlZYm82SUtwRVNiWlBqOCtWV0M2WGc9PSIsInZhbHVlIjoia1IwOHdwaEhRR0NaaExvR3daSDdmbG9SQ2pQODRYczNOOXJtVWhxUWVKWjVkN2wyczJDL3llSTlJdjd0dnMydDFsMTY3Q2pVRlVGWk5uUW1oc3pMTmtFV0wwWWdmc2JBNGJ2UWhsdEEzRHRiNkZUSDVJbjV5clJIYzRZVHFySmciLCJtYWMiOiIwMTRhNjRlM2QwOTM0YWI1NjExOGU1YWZkMzEwYzYwYTI3YzZkOWEzMTI2M2E3MzcyM2U0YTQzMjkzNDk0ZTM4In0%3D; _ym_d=1756750607; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/tracks-a1/index.fmp4.m3u8?token=6f17069990b71f1d639d38736cf4845d90f06a4e-9389c60d032e872cc8610366bdbe674a-1756761784-1756750984",
+      "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=6f17069990b71f1d639d38736cf4845d90f06a4e-9389c60d032e872cc8610366bdbe674a-1756761784-1756750984"
+    ]
   },
   {
     "id": 7,
     "name": "ספורט 5 לייב",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=37631067f02e3e442f84c46edffed3b75a8d90cd-a860be947c71c9600c023d4e28720e42-1756761205-1756750405",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/tracks-a1/index.fmp4.m3u8?token=ba832c3ea97eaed75a16dd42db3242392bea8503-e82013fe0564ea4556e698c633deb40d-1756761798-1756750998",
     "image": "sport5live",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/sport-5-live-israel/174",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQyAAAAAAAACZUAApp0seFoTdrFSvO6tFIDGRB2WQVlaQjlidUJ857yqah84hxEjxgqUyxm1XItYqhuYh4lDaobLyVGvJDE8kcce0-8S_lW8UW4Ujblge3IIzKQaKj-Rq4Ev_WvDo-UTZYpehXiblzasYbh-MbBi6PfO3tUaRebgQO7_09nhZDhg_JmvFaFMslIa0yvseHLmShTSpRL59d2_FCNvBBSBLYQ0ZjsmJPNBljD-jR_E0CtXVAZJxnB-P-baL5MXhX3TKr0yLr7gjCZoSLcP_9nbUFisAcK6R5p2WX1pfmF2-KLMt0xx80H5iPVQEEp61uA7gOm-wtnAUdUCnsa-dBFFnx7BAtmZ11Ume0XIWF77gdpoDcRxL6dK4qY4PmfleE9WbLC0v-6BVokLgBbzSxYMWF67rDbSg1L8wV6bD4DC_USBUBO8qpGYps9egMuv4Sw1unBEQpm5FO_7aMM5x64v8fQwWs9KX9s_3plJB2qw4sotIGhrCCTd-NeDiBlp9bqCEEpRiOct-zhaJyT1cMj2owUEszcq2weh06iDacw2Xv8qOBGNAf_RqOtYgdJBLtNMhQ9MPxSvkMGjIPbf2lnIjjSo0qbM0bu3xvl5yeP0xor_O-8_7ZU5uvVOa29qaBIir9ymlejON3rvroexcICho3UGsqzZ3JIdJMLuCuWs7Gf-tvfF7hBssrKd57ly7FztB5T69lTFZtnwMoOLzouZXxyISXyL3jSbgCvu-he2WPQDiRv5Xsc8-9GpUB7F6syYrH_tSorHucng1PYTqEDPdXvWO2yHdlKAJiu-YN_SnLkN2ceN0qml9oUHRBXg7NhqNAUGRb8a3XigbkSxxPtbK4jkppTWYKD1Jp2g7dgfmnxW92mPc-Dx1kZLtsbB9_C-Dm-ZaL7RgV67e6ED2GtP1RDaWe6PFUk5hxuDG-2O2hbXuyXehiRmfesM41RQeYA_374SylyQ20J0a01a4Pmyj0i6N1zjnKZLsgv_1Yab47W_E6DAa26cVkZGXc2M8o7TpFeLmWivVKoqRdc3zcIdXtrhTLlrFa5p9GGnsMO68LmXfFk33MQPxogQv4u7nBBT_MTZmfZSH6ysi5PKSwNW5fxp5NuxRTdBRUDuXrstC7AMRi-nKgitQRuu8k_fU01xSJnsqvROhBb8hdj1L725yin-sWdqsql5TsqxSGG0zp1mhIneb3_97pk7beaoRJguoY96h8ResQ8K6l18aPmjKJFCMOuVJwUuvWBP3A-sPJjjkznHSHzP5z8zywmSNbUrCPC5KZ3vMQbmut3PkbesoUd3VjhulpDXpkfEiCDgYdBgpfPKyVQyJhF_ambr0lCQo60EwtSM-FcP1wQUJb-ZMh_3EU1XO390kOJXdjlaHzfbdf34OdzJmI-HoZy-nsYpqKGKgigZIod1tU3KrOeKdlIFtE; laravel_session=eyJpdiI6ImpMcHB3eUVTcmNNMDlXRW9aUE1veXc9PSIsInZhbHVlIjoibTBTSDA1RExXaXRsSEtjOEZQcWg1L2dQR2E4Y0VHY05jRUtoYkplV013UzMrUmJsYUM1R0JIUjd5amZZVS9RbmFwejNFYURIamZoREkzUE0zVnFxSDJ5WEFaZDFxU3NmOE4ydjFicmxwSERvcFlJTklHalBTT0ljeGFHTy91L0giLCJtYWMiOiJjYmNiN2U1ZjJlNjg4YTgxMjNlOTcxYWQwNzA4MTA3NDk1MmI4YTFjYjhkNzNkOTc1MWY0OTc1ZjhlYzliYWI4In0%3D; _ym_isad=2; _ym_uid=1756750607129445599; HstCla4660312=1756750704843; _popprepop=1; HstCnv4660312=1; HstPn4660312=7; HstCns4660312=1; HstPt4660312=7; HstCfa4660312=1756750605344; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6ImE1U1FJTXNnT3ErWCtGQkZmdllGMmc9PSIsInZhbHVlIjoiaEJYdXlmK1NEM0YvbTRLZHRaZ1NiSmo3SVJwMzdMblBEU1RpUFBFMDVMbGVIRlFwa2pLcTdGdHZQNzJIa0RKVnE3a1NJcWdiNlRCSWNRUGhTdEE3b0NScysxcUE4U0hyZlh4TXV0dWZKUUJwZU1OMXVxWmxDMEEzaDJVYzVoRzUiLCJtYWMiOiIxMjUwYTI5MzU0ZThiYzU0N2Q3ZTczMDFiNzdlMzQ1ZDkyODViOTI5MjVjMmYzNDc4ZTAyZjJkNTliNDJkNDY1In0%3D; _ym_d=1756750607; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/tracks-v1/index.fmp4.m3u8?token=ba832c3ea97eaed75a16dd42db3242392bea8503-e82013fe0564ea4556e698c633deb40d-1756761798-1756750998",
+      "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=ba832c3ea97eaed75a16dd42db3242392bea8503-e82013fe0564ea4556e698c633deb40d-1756761798-1756750998"
+    ]
   },
   {
     "id": 8,
     "name": "ספורט 5 סטארס",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=d1720129cc4d9308680a7329639d67d4fcbc3faf-0133aeb2c0edb9b39d4a25068bfb7ff0-1756761223-1756750423",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5STARS/tracks-v1/index.fmp4.m3u8?token=c4173dba2d8a0e714e1013ffd54e306ed0a50289-9dcd1c92537cf385bec601ff6076dde1-1756761813-1756751013",
     "image": "sport5stars",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/sport-5-stars-israel/175",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQyAAAAAAAACZUAAufasInEErp5dGmTw78Ayf5Kyh6Hn6WABXDMTl-pL0TW0cokpRMkmM0U-l1vIiKOpoRTvmtngqa5PcTTw3qvXZt038zzDTvMaLxPfQVDCrT10VORBuOYIsPPc6qT_Q5hU5dmMXa89e9WGm8B9M4AhtxEj-qKfREVErJa1y1bDs4hmx-OmfEOaKcEz5BOfN0IXUAK1o8Gvhq8ib61aiAhBMaMdf33Sv9AkoVkNjiOmYxqBbjvwq-FBXrSIdBvPd-77O1EHJAzwtd-t6dnYare_YA6aukIBn3ILL-41dveEndophXcHOPnnLfUygf6KLu_4mrGZXnD6YDXWbe6DgDuoOIdX7u484h7euo83CbfYlFzmaRP0p6-sO1UshHeinnL1hECRLX6EFYqb2cJ4jD6Ajh5jhtXn_kIsCPC41hXLkymP1IsUpZ42c1l9AVDjMc_8sgPlv0y1ezEd9lZi35gawwPMT5Y9SXOughdA_JQC1W8Pl4lPW2kRuQYxqlxFe9M742oWmWpVnhWkkAJccJua9Ix7cuxLBR7-a_q2tB35T10UQ42N1e3nSko7wH4CYhlEUBrs0w6gLT4RcPZfJpXmFOT4_Xfdv9DXiHTxc6FIo6egVQyA1cL5P94GgRuXq5DOV5knh4ssUsM57paI4cHkqOIqb6shHQx3DOeg4x5B-JB4VJhpUHI8YqxqSMy18RkTrSa4LjOchrpDEOyoqTe7Dx75EF-25Z_Lhix7s4nZN4Zbrg5vRvjxp9R1u0p7dWYl2vYmLJ2W_dvSHb9KcOVJ4XC8IdIiuf5-zlh8wTCBdakHJeWYfs6Fp5u5A0XBj_L4OeexYuarDbN46d9kQOwZscGzNnYcHsQkFiwz-ohDxBTe1yRGf7FG6rgqKQHSjAh9UoU07ZJY3NwH5BbBveswmHKkABlpw9BKF2W1jq27G-sfZxoSAZc52AmLrN_aZOqb5yZ1gqKFqHNsz4zErmvPptXQGFUT7k0-7EiVqkVzF2hUZyvbsz2zz1A4zYYJhov1a39nmHE1cH18uj1s_JSMRuU5fEmNI2MIS7fYzbhGWnjC8QhsLaQjYqpwRSiwJRjoXNMp-cBCoOAOx4zfCqnPPReESbVFSA9XgajlG1rYm2q7GXlmNOth4mZJ7xQEn_RvYp809kRdRVul_4TtFFW43J8u87NnWi_eynNCH7F2Xm-aNLU8HQvjYokbhIVPiuI4_rmpFRIlaq2dIdb-imnwtdnSSNBOL6N-osWaAS4dKTka5Zer9QmtolU8xX4ctwt0geXKsPoZOpD3OKwLvyv1YOiwM6YLfDOT5lzEd1H5_L8lv7HYou6h-05AsPPLAfsMfSdKuLAkWYOqGATjyKjiGfY4Vd8qG2fje-iCpJ2OsyejwzMBnBS-_7IcTlZuwSg-apwIkgvUOjSnpxIKijVOUE; laravel_session=eyJpdiI6IjNqblBkOTJIYjlPZTAwRVhtWnlZL1E9PSIsInZhbHVlIjoiaXYwcm50ZWJsOWJsNko4Yy9hM1BwejlvZEJMd3QzWlc5czNpRnMweGNOb0pFMGxzY1ZGTHB3WUZKdG9VT1VDU3gybEpOZkNRVVpPdFc0dVBkZEJ5UDB1NDF6U3VtTUljNmFlN0pUMTJhY3pOZ0haYXcrcnBqb285a0Y4M3YwNXAiLCJtYWMiOiI4ZDYzMzBmYmYyZjRlNWNhNTFkNDM1MjAzMTZlMmIxYmRkYWVkYzEwMDY2ZDhlZGM0NTJkYTk2NWEzYWNmMmEyIn0%3D; _ym_isad=2; _ym_uid=1756750607129445599; HstCla4660312=1756750721913; _popprepop=1; HstCnv4660312=1; HstPn4660312=8; HstCns4660312=1; HstPt4660312=8; HstCfa4660312=1756750605344; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6ImxZZFZIZzBZS1VWVzVxc0JqUXZNSnc9PSIsInZhbHVlIjoidnhCWFVhV2hac0Rwb3hxRXA4MjhuUFA1QnhGT29tQm05cnd6dmZ1K3RRdEFYcXh5T0JkbmM2T1dFTkZqckJVaCtYZVo1MzlzU0lLNlhmelZvTGRuZHBmYXRnRW9sK0huUjZvSjJ4R2RjbmVDWkJ0VlQvMmM2LzBmMUljekczRmEiLCJtYWMiOiJmYjgwMTFkYjc0MjYwZjcyNmM0NWY0YzMxZTVjNTI2MTdiNjJjODYzMWM3ODViZjcxNjVhMGI3MDdjZTQ4MDVhIn0%3D; _ym_d=1756750607; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT5STARS/tracks-a1/index.fmp4.m3u8?token=c4173dba2d8a0e714e1013ffd54e306ed0a50289-9dcd1c92537cf385bec601ff6076dde1-1756761813-1756751013",
+      "https://beautifulpeople.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=c4173dba2d8a0e714e1013ffd54e306ed0a50289-9dcd1c92537cf385bec601ff6076dde1-1756761813-1756751013"
+    ]
   },
   {
     "id": 9,
     "name": "ספורט 5 גולד",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=7f5a17c3fbcb83b009064d4ab92fbcdc046f6da0-8a46422588052826e09f6d3b37dc60aa-1756761241-1756750441",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/tracks-v1/index.fmp4.m3u8?token=f6db62c61b2066e35e1ffbcaca60f207a09c1084-343da54e1c18d583d03639879f373ed0-1756761829-1756751029",
     "image": "sport5gold",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/sport-5-gold-israel/176",
-      "Origin": "https://www.freeshot.live",
-      "Cookie": "token_QpUJAAAAAAAAGu98Hdz1l_lcSZ2rY60Ajjk9U1c=BQQyAAAAAAAACZUAAmExH-QkH5ScA5b5GCSlLIeMpz1EYT7pvUWaWUIFgIbfq5yUBNadl4Sz_B4lRX4WBbFODPRKi2oNnIlOhnMVv-Hrp5xGZsNprsblmY62DiAUprkApk2r9Otvvj8i37DA_IXbVVPg1jlRNJiesVOhIbbyizLTmnFpdVsgiSX5mndKLbO75pzNqVDcDNF9_kT_3IqWqxIYql-SvI71nCJhm5w0Ev-wbPCjGsy9d9kBZzk8CWNOsc4cMkg8e-ZkED34A6QutMGsVgpym1CCyV12jG3jZqsVBWEupJ4x7dbB3u41NL5PRDJtZnttcA8h6OYmDRSibJ39Kpk2My5B99uqOncS1IZvG8qQYTHOJV_N9TmAtK7MW_oeQbixRF0pX4_-uPznnatnsFNzXl4p_-0sGmgpN1ZhtDg2-v0F8Bi8MVT_uO98Gd6c6SuFP-aJaoSITSqXsfVOR4x7hkdm5U_8qbLHAWKriDB5UCv_D0xUJZEFetXFyEz2sB_gQgRQJdCrZUJJG8bOmoDj_LGX0QOHgw1JL4zjhBK63rA3Q6gn6RIjWnP6SDh3a0mG44FuokYfRVeT_YZwnabq9dOPwnYSUNMiRfBG-ip_FiTh5V5jm_v5XHRAEtaTKP-jLgaPueDPsvZelJD1uSEV_wAlQsvgYnAC9WFmd7qU2HOG01eyiTO7xcCT1Fp8kwT441EP0_95kV1ucQUPm_85p_oBGMstlAwilMqskA_RBYL6M-0R_oBlat-f7t9PdmFYzBWpbk2FuzAvCd4wliQ6K239CBi8BXTTeBFnyh70om1F5KyedFW6641dU_9h0qmt-3m4gVWowvKVa1Azlbytq4tYaRfOYuh7yWXQlJozrH46J1rh4Nxr9mn6IMdVyOlFNrDOZoiB-oLZJEK3bS9B2UXzWzcJwv2XnKvrG8jRQ5c7YfvvkvVfjyLEC7IR1xEqpOtVPCb249B5XDwfAdbcBCbhnGIccBNjk07Wv0Y8a3ZDQQf8bgwRnjS4NlFQBj9hhPELeuca8pOCkah2_BwQ7p4u5UWPMrhI_KIg1Fb0fqlJWypy1wBGXlIHgj9JqyfsgZNLKVeix-IeaP9RHDy1KrjRhZbEumXtOEAdAb2q7_-nnZA5GqxfaSAX2PIgjzCOvJRGcDlP1XXMXO1Ts2a1aOE_SYkiHp_jea9OY0p4Tri8UCzbo_Qkd6mWL3J1K4Vwg8oaFB0EZ5dOZ_mDcRPMHn3WjOVJHkotAovEwnCWiSuVyqLX44Ll2WDRXWft_gFphSxox2jGAz8w6Vw0vqAGrIM1guqLHcddLAGFfNjHJtVEamSvXkF18aaSN1TZerwOzSfa50wzJRXZ7qTOZM8juVi2Q8GBNaTUMqtKubuZU0Jo4DORjM_JWkIOPtOwyl7AKgKmw_p0d5o6Cwjx0VAnv7qhG3OOn_0; laravel_session=eyJpdiI6IlBHWmNFc0hscEZCYUlmQTdFLzB3V1E9PSIsInZhbHVlIjoiMGtIUDhkM3pQenZwUlVVbjltSytpc0VWdUdsem1iRDFrbkxhNlpNd0hqYTFPV2Y3a0hER3ZrcUdkSXVNSk1mcFoyZ1hTSlZvNnZENDZ1Z2Vubmk4K0tFQWhJTThQVFJmQTc4b2crUzJtZlJXL1dLYVhDY2Q4dGREa2lTeFFsdmEiLCJtYWMiOiJhZGRhZGEwZDM5MDM0ZTE3Nzc2NjFlOTkzMGUyZjc1NzcwNzM2NzJlZDFmYjE5MDQ0Yjk4NDk5M2M0ODg3YjBiIn0%3D; _ym_isad=2; _ym_uid=1756750607129445599; HstCla4660312=1756750740301; _popprepop=1; HstCnv4660312=1; HstPn4660312=9; HstCns4660312=1; HstPt4660312=9; HstCfa4660312=1756750605344; HstCmu4660312=1756750605344; XSRF-TOKEN=eyJpdiI6Im9uYTV3eWNITG1EdlNhZXBBS1pyS0E9PSIsInZhbHVlIjoib2NYUTdMU3Qza05yczh0aHBvbnRreDYyU1oyWGw0c2tmZTU5WW9tTUJGZE9GTUZ1NnJTZGMySUwxY25HbUIwVHllbFY2V2tJUnRnSDE2U2hJN1dQZFBXOEVHRkFMeWh6dW5KZFZpc3Vmd3JpZkd2RXdNc0RMT2VWU21JOTlvemMiLCJtYWMiOiI0OTgyNGU5MDZhOGUzMzRiZGVkZTYyZTU2ZGYyMjBlYTBmMjZhNGJkMTQ5OWRjNDU1YjQ0NTQ0NDA1OTE5MDkyIn0%3D; _ym_d=1756750607; a=d4wurWcBpP5y8NimlhybrOBp9AO4P7pn; LyraShield-Uq=0967210ccff55e8b9d1232b6e372b435;"
-    }
+      "Accept": "application/x-mpegURL, application/vnd.apple.mpegurl, */*",
+      "Origin": "https://beautifulpeople.lovecdn.ru",
+      "Referer": "https://beautifulpeople.lovecdn.ru/",
+      "Host": "beautifulpeople.lovecdn.ru",
+      "Accept-Language": "en-US,en;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/139.0.0.0 Safari/537.36"
+    },
+    "alts": [
+      "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/tracks-a1/index.fmp4.m3u8?token=f6db62c61b2066e35e1ffbcaca60f207a09c1084-343da54e1c18d583d03639879f373ed0-1756761829-1756751029",
+      "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=f6db62c61b2066e35e1ffbcaca60f207a09c1084-343da54e1c18d583d03639879f373ed0-1756761829-1756751029"
+    ]
   }
 ]
