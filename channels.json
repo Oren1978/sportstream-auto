@@ -1,78 +1,23 @@
 [
   {
-    "id": 3,
-    "name": "ספורט 3",
-    "url": "https://planetary.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=bbb4b167bd12bada0dc8cd10efff327257ed8bcf-7d3d9304881d25aa06aa3a70b5edf9e6-1756688820-1756678020",
-    "image": "sport3",
+    "id": 1,
+    "name": "ספורט 1",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=b14dbc805ea7c2355d0768420adc27ad5eca355a-44dccc26b0ef717a1f6066dd38433180-1756699351-1756688551",
+    "image": "sport1",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-3-israel/170",
-      "Origin": "https://www.freeshot.live"
-    }
-  },
-  {
-    "id": 4,
-    "name": "ספורט 4",
-    "url": "https://planetary.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=056e487afc5376edc9776e4d62a01465dba6bf3a-02a6d5075847b852a79ca6e678cf4d43-1756688836-1756678036",
-    "image": "sport4",
-    "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-4-israel/171",
-      "Origin": "https://www.freeshot.live"
-    }
-  },
-  {
-    "id": 5,
-    "name": "ספורט 5",
-    "url": "https://planetary.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=3e0082de29b81536f879a76f2d259970814cf441-475f6fd1e1f9969f6e5f282ce11b761d-1756688852-1756678052",
-    "image": "sport5",
-    "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/yes-sport-5-israel/172",
+      "Referer": "https://www.freeshot.live/live-tv/yes-sport-1-israel/168",
       "Origin": "https://www.freeshot.live"
     }
   },
   {
     "id": 6,
     "name": "ספורט 5 פלוס",
-    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=917fae76f871f9c9c1c7f25fb41a35b0a5aca072-fd254b85b0af90b8fe49303168b3c266-1756688868-1756678068",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=593e9db8ee5e30673694e3291019c2bd0fb91a75-4fe9f660d04c1cd8fe6dd6957cbc7e85-1756699432-1756688632",
     "image": "sport5plus",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
       "Referer": "https://www.freeshot.live/live-tv/sport-5-plus-israel/173",
-      "Origin": "https://www.freeshot.live"
-    }
-  },
-  {
-    "id": 7,
-    "name": "ספורט 5 לייב",
-    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=80a4d8aca810cde862646f267596f5860aece46a-c0dc7c050eca1000ff53ade899951572-1756688884-1756678084",
-    "image": "sport5live",
-    "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/sport-5-live-israel/174",
-      "Origin": "https://www.freeshot.live"
-    }
-  },
-  {
-    "id": 8,
-    "name": "ספורט 5 סטארס",
-    "url": "https://planetary.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=9709e23630622c059488f2ad1d583b1d5bf2f776-fb6d9d209f896b79c9d86c4efad6abbc-1756688899-1756678099",
-    "image": "sport5stars",
-    "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/sport-5-stars-israel/175",
-      "Origin": "https://www.freeshot.live"
-    }
-  },
-  {
-    "id": 9,
-    "name": "ספורט 5 גולד",
-    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=b4273e46622e0e0a3faafe7cbb37fdf19f64f3c3-4c453b9bf0bed62431a473121d613ae1-1756688915-1756678115",
-    "image": "sport5gold",
-    "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-      "Referer": "https://www.freeshot.live/live-tv/sport-5-gold-israel/176",
       "Origin": "https://www.freeshot.live"
     }
   }
