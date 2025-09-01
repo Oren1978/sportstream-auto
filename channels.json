@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "ספורט 1",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=b14dbc805ea7c2355d0768420adc27ad5eca355a-44dccc26b0ef717a1f6066dd38433180-1756699351-1756688551",
+    "url": "https://planetary.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=6181d68cab27bf8ef38c7311ace1b3d94312a120-6312b0c03cd36fedf917d390e87abb74-1756707094-1756696294",
     "image": "sport1",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -11,13 +11,90 @@
     }
   },
   {
+    "id": 2,
+    "name": "ספורט 2",
+    "url": "https://planetary.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=6617e10875a7611d33a6a0c138904a086cef0f77-1800702df03d63e56a9cc73ee8268cf9-1756707112-1756696312",
+    "image": "sport2",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Referer": "https://www.freeshot.live/live-tv/yes-sport-2-israel/169",
+      "Origin": "https://www.freeshot.live"
+    }
+  },
+  {
+    "id": 3,
+    "name": "ספורט 3",
+    "url": "https://planetary.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=005137c90dfa75954e4b36e5513aa01f31f1ca42-5667387acd5601c7c35869e9c13d9a6f-1756707130-1756696330",
+    "image": "sport3",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Referer": "https://www.freeshot.live/live-tv/yes-sport-3-israel/170",
+      "Origin": "https://www.freeshot.live"
+    }
+  },
+  {
+    "id": 4,
+    "name": "ספורט 4",
+    "url": "https://planetary.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=95a4a6e51d0ab8b740e8640dfc999df1871b3862-31f4acc2bc502997c4a6221230f72062-1756707147-1756696347",
+    "image": "sport4",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Referer": "https://www.freeshot.live/live-tv/yes-sport-4-israel/171",
+      "Origin": "https://www.freeshot.live"
+    }
+  },
+  {
+    "id": 5,
+    "name": "ספורט 5",
+    "url": "https://planetary.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=9b686cb626e2d79acc5bf167c21ea9f184cfbbe5-620cef073ba8ef466049e05b106e94d4-1756707164-1756696364",
+    "image": "sport5",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Referer": "https://www.freeshot.live/live-tv/yes-sport-5-israel/172",
+      "Origin": "https://www.freeshot.live"
+    }
+  },
+  {
     "id": 6,
     "name": "ספורט 5 פלוס",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=593e9db8ee5e30673694e3291019c2bd0fb91a75-4fe9f660d04c1cd8fe6dd6957cbc7e85-1756699432-1756688632",
+    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=47680bb9dca78a876c035b1d6af555d46fb15f60-7a26b268177e7136fc59a745e999a530-1756707181-1756696381",
     "image": "sport5plus",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
       "Referer": "https://www.freeshot.live/live-tv/sport-5-plus-israel/173",
+      "Origin": "https://www.freeshot.live"
+    }
+  },
+  {
+    "id": 7,
+    "name": "ספורט 5 לייב",
+    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=c16bc149dc9eb0b42673f161d4593f1701ac0baf-637b317a739dd5f0ea683b9b99283946-1756707199-1756696399",
+    "image": "sport5live",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Referer": "https://www.freeshot.live/live-tv/sport-5-live-israel/174",
+      "Origin": "https://www.freeshot.live"
+    }
+  },
+  {
+    "id": 8,
+    "name": "ספורט 5 סטארס",
+    "url": "https://planetary.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=04ca08778334f7b64f465d7229edc0d3a0152905-1c198e739660f165bc22925674445dd5-1756707216-1756696416",
+    "image": "sport5stars",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Referer": "https://www.freeshot.live/live-tv/sport-5-stars-israel/175",
+      "Origin": "https://www.freeshot.live"
+    }
+  },
+  {
+    "id": 9,
+    "name": "ספורט 5 גולד",
+    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=e3e9feea2b36b26ab7fff906671aac260b861a19-9fc3153237c8fd8f68aeb0700bd6434b-1756707232-1756696432",
+    "image": "sport5gold",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Referer": "https://www.freeshot.live/live-tv/sport-5-gold-israel/176",
       "Origin": "https://www.freeshot.live"
     }
   }
