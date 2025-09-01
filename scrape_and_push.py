@@ -1,4 +1,4 @@
-# scrape_and_push.py (VERSION WITH BUG FIX)
+# scrape_and_push.py (FINAL, WITH COOKIE AND ACCURATE MATCHING)
 # -*- coding: utf-8 -*-
 import os
 import sys
@@ -68,38 +68,45 @@ def get_token_from_url(url):
     except (KeyError, IndexError):
         return None
 
-# THIS FUNCTION WAS MISSING. I'VE ADDED IT BACK.
 def extract_header_value(req, header_name):
     try:
         return req.headers.get(header_name)
     except Exception:
         return None
 
-def derive_headers_for_url(m3u8_url, stream_key, ua_from_req=None):
+def derive_headers_for_url(m3u8_url, stream_key, ua_from_req=None, cookie_from_req=None):
     token = get_token_from_url(m3u8_url)
     if not token: return None
     p = urlparse(m3u8_url)
+    
     referer_path = f"/{stream_key}/embed.html"
     referer_query = urlencode({'token': token, 'remote': 'no_check_ip'})
     referer_parts = (p.scheme, p.netloc, referer_path, '', referer_query, '')
     referer = urlunparse(referer_parts)
+    
     headers = {
-        "accept": "*/*", "referer": referer, "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors", "sec-fetch-site": "same-origin"
+        "accept": "*/*",
+        "referer": referer,
+        "origin": f"{p.scheme}://{p.netloc}",
+        "user-agent": ua_from_req or "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
     }
-    headers["user-agent"] = ua_from_req or "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    if cookie_from_req:
+        headers["cookie"] = cookie_from_req
+
     return headers
 
-def collect_m3u8_url(driver, page_url):
+def collect_m3u8_data(driver, page_url, stream_key):
     try: del driver.requests
     except Exception: pass
     driver.get(page_url)
+    
     try:
-        req = driver.wait_for_request(r'.*index\.fmp4\.m3u8.*', timeout=20)
-        return req.url, extract_header_value(req, 'User-Agent')
+        # Find the specific request that contains the stream key
+        req = driver.wait_for_request(f'.*{stream_key}.*index\\.fmp4\\.m3u8.*', timeout=25)
+        return req.url, extract_header_value(req, 'User-Agent'), extract_header_value(req, 'Cookie')
     except Exception as e:
-        log(f"--> Could not find m3u8 request: {e}")
-        return None, None
+        log(f"--> Could not find m3u8 request for key {stream_key}: {e}")
+        return None, None, None
 
 def write_channels_json_to_repo(output_items):
     os.makedirs(REPO_DIR, exist_ok=True)
@@ -115,7 +122,7 @@ def git_commit_and_push():
         return
     run(["git", "commit", "-m", "update channels"], cwd=REPO_DIR)
     run(["git", "push", "origin", GITHUB_BRANCH], cwd=REPO_DIR)
-    
+
 # --- Main Execution ---
 def main():
     log("Step 1: Ensuring local git repo is ready...")
@@ -131,9 +138,10 @@ def main():
         for ch in CHANNELS:
             name, page, image, key = ch["name"], ch["page_url"], ch["image"], ch["stream_key"]
             log(f"\n--- Scraping: {name} ---")
-            m3u8_url, user_agent = collect_m3u8_url(driver, page)
+            m3u8_url, user_agent, cookie = collect_m3u8_data(driver, page, key)
+            
             if m3u8_url:
-                headers = derive_headers_for_url(m3u8_url, key, user_agent)
+                headers = derive_headers_for_url(m3u8_url, key, user_agent, cookie)
                 if headers:
                     log(f"--> Found stream for {name}")
                     item = {"id": ch["id"], "name": name, "url": m3u8_url, "image": image, "headers": headers}
@@ -145,6 +153,7 @@ def main():
     finally:
         try: driver.quit()
         except Exception: pass
+
     log("\nStep 3: Writing channels.json to local repo...")
     write_channels_json_to_repo(output)
     log("\nStep 4: Committing and pushing to GitHub...")
