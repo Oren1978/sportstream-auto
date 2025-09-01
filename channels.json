@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "ספורט 1",
-    "url": "https://planetary.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=da048f90e48f17e619293ae10818c895b8e37376-c0ce0288535e41343b62f793273e3663-1756753759-1756742959",
+    "url": "https://planetary.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=3bbf33aad2901b63bc57691e7b5fc84fae66ffc7-f50d3a32a3064375a83908836ea44e24-1756754711-1756743911",
     "image": "sport1",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "ספורט 2",
-    "url": "https://planetary.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=ccda0e7a14d66c6ea0323d90814e0fce10787ba1-1b6c305eb47d00c8fa95b3462212b416-1756753775-1756742975",
+    "url": "https://planetary.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=b0f0f4f5dcd95ccfb0d85288e5947cfb4b71d28c-1f09e1f1ed072cb68785b513d8567717-1756754727-1756743927",
     "image": "sport2",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "name": "ספורט 3",
-    "url": "https://planetary.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=22295280d008cef285e50ba96b7432f2c84ace76-929720d740749e96405e3f1288c8cc38-1756753792-1756742992",
+    "url": "https://planetary.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=86e687075905a4778dfb34c55139652e4deba1ff-3a5cc244770566fd061c12b2880ecbcf-1756754743-1756743943",
     "image": "sport3",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "name": "ספורט 4",
-    "url": "https://planetary.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=a9bc6b69cc4da1140c69a902d68dc43894d59795-5e6c0ffc333580688b45a94f1c1d2b99-1756753808-1756743008",
+    "url": "https://planetary.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=03a1cccf836a10eb245330af65f7b8f81f2dd414-2e6a3def73c8d3f9bb42aa6b2b0bbbfb-1756754759-1756743959",
     "image": "sport4",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "name": "ספורט 5",
-    "url": "https://planetary.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=a843198d089b42129390c4a2558190365744c64b-b829d8156684414024721cadd2963705-1756753826-1756743026",
+    "url": "https://planetary.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=084a5df2ba45a7b323042cb62b4b9afcad780a36-5fbbbc86863e60db8885524fc109ccb9-1756754776-1756743976",
     "image": "sport5",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "name": "ספורט 5 פלוס",
-    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=fdac002ee051ec8fb7841bed96e1aa0d7c049ea3-2a10d1db253c72e41154772ee6239dfb-1756753842-1756743042",
+    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=d9d20ad7b53a3509252f8f093569359c33559e2d-18ded246114b9414a259e79d62dab103-1756754792-1756743992",
     "image": "sport5plus",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "name": "ספורט 5 לייב",
-    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=fa6719beb4262714b954fc4baf5ed3c2573571fb-64e192ae79a34ae2c66479fd29f01cbb-1756753859-1756743059",
+    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=d8b4f7311596d5a873ffc81843f28428c299a135-0e71431bdceac841c7bf7a39003cb6ef-1756754807-1756744007",
     "image": "sport5live",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "name": "ספורט 5 סטארס",
-    "url": "https://planetary.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=b66a2d69ba7d490d291870a308697492d9871f22-288cfb7f2e3e26d7202806e6b3a27d28-1756753876-1756743076",
+    "url": "https://planetary.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=f07164c35e603a49bdbbf9c6bcb5d90b16c341c6-65848bc53a0bb05213de35e59a7f95a0-1756754824-1756744024",
     "image": "sport5stars",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "name": "ספורט 5 גולד",
-    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=2fa93c4508ab251da9d52ccd8f8366fc12bdd994-50afd4fd25169f8dbf320f8c9c9cf696-1756753893-1756743093",
+    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=35014cf459a352ec69af72c0bd0fdfe6a36d52e4-9c5b66e74bf15afa22d004114297431c-1756754841-1756744041",
     "image": "sport5gold",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
