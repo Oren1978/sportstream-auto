@@ -2,11 +2,11 @@
   {
     "id": 1,
     "name": "ספורט 1",
-    "url": "https://planetary.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=915f8dee54933f1f84f10886b5c5ee87c549795d-b398d27714c5364e060dc685e01de6e5-1759410330-1759399530",
+    "url": "https://planetary.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=1086af74459046879935431318371dc0aac0f2fd-c1b7421dc02379aef37152433471f005-1759417990-1759407190",
     "image": "sport1",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT1IL/embed.html?token=915f8dee54933f1f84f10886b5c5ee87c549795d-b398d27714c5364e060dc685e01de6e5-1759410330-1759399530&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT1IL/embed.html?token=1086af74459046879935431318371dc0aac0f2fd-c1b7421dc02379aef37152433471f005-1759417990-1759407190&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -14,11 +14,11 @@
   {
     "id": 2,
     "name": "ספורט 2",
-    "url": "https://planetary.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=c5a19456180169931b77eae57d94339afd917ae5-33a39563015d7a156cb11e3b9a37184e-1759410336-1759399536",
+    "url": "https://planetary.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=6052ff401a7da78134c4531fad540425cba7c852-af72197b40d1cad8cc086cbecde62bc0-1759417997-1759407197",
     "image": "sport2",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT2IL/embed.html?token=c5a19456180169931b77eae57d94339afd917ae5-33a39563015d7a156cb11e3b9a37184e-1759410336-1759399536&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT2IL/embed.html?token=6052ff401a7da78134c4531fad540425cba7c852-af72197b40d1cad8cc086cbecde62bc0-1759417997-1759407197&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -26,11 +26,11 @@
   {
     "id": 3,
     "name": "ספורט 3",
-    "url": "https://planetary.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=a0121915fca478d9bcda09e42ec242bee3821765-811fba7131e566dbc66249e264bb33fe-1759410341-1759399541",
+    "url": "https://planetary.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=38f381764f786b4ef22bbe80efcc64619b8b85a9-c764891ce144b53253deb089996cb6d9-1759418012-1759407212",
     "image": "sport3",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT3IL/embed.html?token=a0121915fca478d9bcda09e42ec242bee3821765-811fba7131e566dbc66249e264bb33fe-1759410341-1759399541&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT3IL/embed.html?token=38f381764f786b4ef22bbe80efcc64619b8b85a9-c764891ce144b53253deb089996cb6d9-1759418012-1759407212&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -38,11 +38,11 @@
   {
     "id": 4,
     "name": "ספורט 4",
-    "url": "https://planetary.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=fe2079edd6c41b1a305b5a33dcc474329090dc1b-9f83c118d9fcbbafae01392229d7c41d-1759410346-1759399546",
+    "url": "https://planetary.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=da2d7c1f941cc8921e91121a59787fc730801bf5-5ee067674cff3a4d3b7758cf6a0f5134-1759418017-1759407217",
     "image": "sport4",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT4IL/embed.html?token=fe2079edd6c41b1a305b5a33dcc474329090dc1b-9f83c118d9fcbbafae01392229d7c41d-1759410346-1759399546&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT4IL/embed.html?token=da2d7c1f941cc8921e91121a59787fc730801bf5-5ee067674cff3a4d3b7758cf6a0f5134-1759418017-1759407217&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -50,11 +50,11 @@
   {
     "id": 5,
     "name": "ספורט 5",
-    "url": "https://planetary.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=cd5e696eab34ae961d9099a72b83b405513869a3-8107e16e328716c867cbf9425216ee67-1759410351-1759399551",
+    "url": "https://planetary.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=e03575f3f19e6de8db730cc4b94fdac70283cb2b-12a848cc40e1e6120a8cc7ec380e35aa-1759418022-1759407222",
     "image": "sport5",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT5IL/embed.html?token=cd5e696eab34ae961d9099a72b83b405513869a3-8107e16e328716c867cbf9425216ee67-1759410351-1759399551&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT5IL/embed.html?token=e03575f3f19e6de8db730cc4b94fdac70283cb2b-12a848cc40e1e6120a8cc7ec380e35aa-1759418022-1759407222&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -62,11 +62,11 @@
   {
     "id": 6,
     "name": "ספורט 5 פלוס",
-    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=3a1dac6affecce5a4203d498c0e609b35c258b09-58363c6a8224e1c70aaee6ff08ce7145-1759410367-1759399567",
+    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=e6f5cb65ffcd6f2a56ea04ffc4154391a0c291e9-6e1ddf2d748e523b4d4f8d8e8631bba3-1759418027-1759407227",
     "image": "sport5plus",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT5PLUS/embed.html?token=3a1dac6affecce5a4203d498c0e609b35c258b09-58363c6a8224e1c70aaee6ff08ce7145-1759410367-1759399567&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT5PLUS/embed.html?token=e6f5cb65ffcd6f2a56ea04ffc4154391a0c291e9-6e1ddf2d748e523b4d4f8d8e8631bba3-1759418027-1759407227&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -74,11 +74,11 @@
   {
     "id": 7,
     "name": "ספורט 5 לייב",
-    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=778c18118d669b97f681b2cd4b124405ed9e23df-2a97709b52ca8381f835527a3ac9de4f-1759410373-1759399573",
+    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=84a911303e6619d2c58428f79198368f076110cb-434c59900f4e93662e367947b1eb94fa-1759418031-1759407231",
     "image": "sport5live",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT5LIVE/embed.html?token=778c18118d669b97f681b2cd4b124405ed9e23df-2a97709b52ca8381f835527a3ac9de4f-1759410373-1759399573&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT5LIVE/embed.html?token=84a911303e6619d2c58428f79198368f076110cb-434c59900f4e93662e367947b1eb94fa-1759418031-1759407231&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -86,11 +86,11 @@
   {
     "id": 8,
     "name": "ספורט 5 סטארס",
-    "url": "https://planetary.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=1a6ddc5f2ba6bc3c5d1b32e74a6ad877c94451e4-5d36d89cf2b820483e39065f84d15afd-1759410379-1759399579",
+    "url": "https://planetary.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=6849b6068f69a8d7e0ddca82ccfcb64782d22b07-a26ba6aed73c6afc3fe7623656a59b8a-1759418036-1759407236",
     "image": "sport5stars",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT5STARS/embed.html?token=1a6ddc5f2ba6bc3c5d1b32e74a6ad877c94451e4-5d36d89cf2b820483e39065f84d15afd-1759410379-1759399579&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT5STARS/embed.html?token=6849b6068f69a8d7e0ddca82ccfcb64782d22b07-a26ba6aed73c6afc3fe7623656a59b8a-1759418036-1759407236&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -98,11 +98,11 @@
   {
     "id": 9,
     "name": "ספורט 5 גולד",
-    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=452fbac69aa7f14871ab76a5c6b2a44ae0e8b04a-ef003b24db83bb0c3adc3b79e76d7798-1759410385-1759399585",
+    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=7dc44af7d247bbe8a4cb0964893e2d18349f4e67-4a8024ef5e0f10c8d76dc4dd02c46032-1759418041-1759407241",
     "image": "sport5gold",
     "headers": {
       "accept": "*/*",
-      "referer": "https://planetary.lovecdn.ru/SPORT5GOLD/embed.html?token=452fbac69aa7f14871ab76a5c6b2a44ae0e8b04a-ef003b24db83bb0c3adc3b79e76d7798-1759410385-1759399585&remote=no_check_ip",
+      "referer": "https://planetary.lovecdn.ru/SPORT5GOLD/embed.html?token=7dc44af7d247bbe8a4cb0964893e2d18349f4e67-4a8024ef5e0f10c8d76dc4dd02c46032-1759418041-1759407241&remote=no_check_ip",
       "origin": "https://planetary.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
