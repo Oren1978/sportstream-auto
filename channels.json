@@ -2,11 +2,11 @@
   {
     "id": 1,
     "name": "ספורט 1",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=86cb2e8f8caf572b51c211199fb08f4b3c99544e-80dbcda57fdd628971aa6356e3de2145-1760447166-1760436366",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT1IL/index.fmp4.m3u8?token=93017bf7152b5385943fa3c24e19810c247d7374-888e187e471e41ce45ce6acc60588e1a-1760454910-1760444110",
     "image": "sport1",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT1IL/embed.html?token=86cb2e8f8caf572b51c211199fb08f4b3c99544e-80dbcda57fdd628971aa6356e3de2145-1760447166-1760436366&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT1IL/embed.html?token=93017bf7152b5385943fa3c24e19810c247d7374-888e187e471e41ce45ce6acc60588e1a-1760454910-1760444110&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -14,11 +14,11 @@
   {
     "id": 2,
     "name": "ספורט 2",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=fa8c865717615223c05020f71666b2d7f4ca14b4-1e63857628eee588b2870e6f5f1fb8a5-1760447204-1760436404",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT2IL/index.fmp4.m3u8?token=85f6e93d7eaa426e3dd5102a701b62a07a64877a-7b9f89bf0f38d1eab0efe8ff1394fc1b-1760454916-1760444116",
     "image": "sport2",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT2IL/embed.html?token=fa8c865717615223c05020f71666b2d7f4ca14b4-1e63857628eee588b2870e6f5f1fb8a5-1760447204-1760436404&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT2IL/embed.html?token=85f6e93d7eaa426e3dd5102a701b62a07a64877a-7b9f89bf0f38d1eab0efe8ff1394fc1b-1760454916-1760444116&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -26,11 +26,11 @@
   {
     "id": 3,
     "name": "ספורט 3",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=7f22582482815c8b214b08028ceeaa7140099fad-0bd9b7b6cc14e5438fe93dd7183e4309-1760447210-1760436410",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT3IL/index.fmp4.m3u8?token=5e23d017e0b026ee044fb2bc8339b1401fadb99c-c03d755b206d82ff36297d0167fa14df-1760454921-1760444121",
     "image": "sport3",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT3IL/embed.html?token=7f22582482815c8b214b08028ceeaa7140099fad-0bd9b7b6cc14e5438fe93dd7183e4309-1760447210-1760436410&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT3IL/embed.html?token=5e23d017e0b026ee044fb2bc8339b1401fadb99c-c03d755b206d82ff36297d0167fa14df-1760454921-1760444121&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -38,11 +38,11 @@
   {
     "id": 4,
     "name": "ספורט 4",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=d7ad49600d2e7b90742e7816442f50ccc18593c5-129869f303253b2984a83c6787939d0b-1760447216-1760436416",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT4IL/index.fmp4.m3u8?token=ef7bac94e06e42a9c3aa609faefae45c493c7e09-2c6d2ccfa5ee7ae0f1c23645ea7f1278-1760454926-1760444126",
     "image": "sport4",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT4IL/embed.html?token=d7ad49600d2e7b90742e7816442f50ccc18593c5-129869f303253b2984a83c6787939d0b-1760447216-1760436416&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT4IL/embed.html?token=ef7bac94e06e42a9c3aa609faefae45c493c7e09-2c6d2ccfa5ee7ae0f1c23645ea7f1278-1760454926-1760444126&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -50,11 +50,11 @@
   {
     "id": 5,
     "name": "ספורט 5",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=bafad99caab45dbb34a114f78619c5bfbb400838-e5d54396d4cd9ebd99e5dfcc3a19b6ed-1760447220-1760436420",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5IL/index.fmp4.m3u8?token=25abf549c26941a0fc90070253c4296fdc3b02bc-9018c0249ab22f9ca408169f4486a928-1760454931-1760444131",
     "image": "sport5",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5IL/embed.html?token=bafad99caab45dbb34a114f78619c5bfbb400838-e5d54396d4cd9ebd99e5dfcc3a19b6ed-1760447220-1760436420&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5IL/embed.html?token=25abf549c26941a0fc90070253c4296fdc3b02bc-9018c0249ab22f9ca408169f4486a928-1760454931-1760444131&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -62,11 +62,11 @@
   {
     "id": 6,
     "name": "ספורט 5 פלוס",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=a847bd4320838df5215874254490fb6d771096bd-f536b4da5e03c6bea58b2d0614a78480-1760447226-1760436426",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/index.fmp4.m3u8?token=20806a9fe4548d547651b50bf3e70c61b8731710-390332f2769f651994022e82e8770acf-1760454937-1760444137",
     "image": "sport5plus",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/embed.html?token=a847bd4320838df5215874254490fb6d771096bd-f536b4da5e03c6bea58b2d0614a78480-1760447226-1760436426&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/embed.html?token=20806a9fe4548d547651b50bf3e70c61b8731710-390332f2769f651994022e82e8770acf-1760454937-1760444137&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -74,11 +74,11 @@
   {
     "id": 7,
     "name": "ספורט 5 לייב",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=6bf9f0819c2fa4f6090d63c234a8c6ad248d18b9-983c301035578cc3203013b5867ba196-1760447231-1760436431",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/index.fmp4.m3u8?token=932aed83ea7c5af5cc702600d6c70d4a213da5c6-2cdf06e6737e94e40b2cb71c50578516-1760454942-1760444142",
     "image": "sport5live",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/embed.html?token=6bf9f0819c2fa4f6090d63c234a8c6ad248d18b9-983c301035578cc3203013b5867ba196-1760447231-1760436431&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/embed.html?token=932aed83ea7c5af5cc702600d6c70d4a213da5c6-2cdf06e6737e94e40b2cb71c50578516-1760454942-1760444142&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -86,11 +86,11 @@
   {
     "id": 8,
     "name": "ספורט 5 סטארס",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=9bc2ea145e974d6327dd49ff343fb4d27badc99d-6f1f28045b6e70e9960b4e6caa48ee2f-1760447236-1760436436",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5STARS/index.fmp4.m3u8?token=650775f67000310c5593f0021f9a957f7e90fbc4-00cdbc827669e09e8120d958038e690a-1760454947-1760444147",
     "image": "sport5stars",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5STARS/embed.html?token=9bc2ea145e974d6327dd49ff343fb4d27badc99d-6f1f28045b6e70e9960b4e6caa48ee2f-1760447236-1760436436&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5STARS/embed.html?token=650775f67000310c5593f0021f9a957f7e90fbc4-00cdbc827669e09e8120d958038e690a-1760454947-1760444147&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
@@ -98,11 +98,11 @@
   {
     "id": 9,
     "name": "ספורט 5 גולד",
-    "url": "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=e49e26403910d7c750d93524095a14366cbad6bf-c9beb9bdd4b947c9de806776c1e151f9-1760447241-1760436441",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/index.fmp4.m3u8?token=c6b02e37a7333fe65f26d8c7ec09e0362b79183e-8725ce628977f9b9f3f1ad3c0d86b6a8-1760454952-1760444152",
     "image": "sport5gold",
     "headers": {
       "accept": "*/*",
-      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/embed.html?token=e49e26403910d7c750d93524095a14366cbad6bf-c9beb9bdd4b947c9de806776c1e151f9-1760447241-1760436441&remote=no_check_ip",
+      "referer": "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/embed.html?token=c6b02e37a7333fe65f26d8c7ec09e0362b79183e-8725ce628977f9b9f3f1ad3c0d86b6a8-1760454952-1760444152&remote=no_check_ip",
       "origin": "https://beautifulpeople.lovecdn.ru",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36"
     }
