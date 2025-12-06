@@ -2,8 +2,8 @@ name: Update Channels JSON
 
 on:
   schedule:
-    # Runs every 2 hours
-    - cron: '0 */2 * * *'
+    # Runs every 3 hours
+    - cron: '0 */3 * * *'
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
 
 jobs:
