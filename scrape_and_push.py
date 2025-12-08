@@ -1,11 +1,7 @@
+import asyncio
 import json
-import time
-import random
-from seleniumwire import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import os
+from playwright.async_api import async_playwright
 
 # --- רשימת הערוצים ---
 channels = [
@@ -20,128 +16,94 @@ channels = [
     {"id": 9, "name": "ספורט 5 גולד", "page_url": "https://www.freeshot.live/live-tv/sport-5-gold-israel/176", "image": "sport5gold"},
 ]
 
-# --- פונקציה להגדרת דפדפן "חמקן" ---
-def get_stealth_driver():
-    chrome_options = Options()
+# User-Agent קבוע ואמין
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+
+async def construct_m3u8_from_embed(embed_url):
+    """מרכיב את הלינק הסופי לפי התבנית המנצחת"""
+    if "embed.html" not in embed_url: return None
+    base_part = embed_url.split("embed.html")[0]
+    query_part = embed_url.split("embed.html")[1]
+    # התבנית שנמצאה כעובדת
+    template = "tracks-v1/index.fmp4.m3u8"
+    target_url = f"{base_part}{template}{query_part}"
+    print(f"      ✅ לינק חולץ: {target_url[:60]}...")
+    return target_url
+
+async def scrape_channel(playwright, channel):
+    # דפדפן מהיר
+    browser = await playwright.chromium.launch(headless=True, args=['--no-sandbox', '--disable-setuid-sandbox'])
+    context = await browser.new_context(user_agent=USER_AGENT)
+    page = await context.new_page()
     
-    # 1. מצב Headless משופר (פחות ניתן לגילוי)
-    chrome_options.add_argument("--headless=new") 
-
-    # 2. הסתרת העובדה שזה אוטומציה (קריטי!)
-    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    chrome_options.add_experimental_option('useAutomationExtension', False)
-
-    # 3. User Agent אמין וקבוע (כרום על ווינדוס 10)
-    # שימוש בזה עדיף לפעמים על רנדומלי כדי למנוע יצירת UA לא הגיוני
-    fake_ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    chrome_options.add_argument(f'user-agent={fake_ua}')
-
-    # 4. ביטול הגבלות ושיפור ביצועים
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--ignore-certificate-errors")
-    
-    # יצירת הדרייבר
-    driver = webdriver.Chrome(options=chrome_options)
-
-    # טריק נוסף: שינוי מאפייני Navigator ב-JavaScript כדי להסתיר את ה-Webdriver
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    
-    return driver
-
-# --- הפונקציה שמושכת את הלינק ---
-def get_stream_data(driver, url, channel_keyword):
-    print(f"   >>> נכנס לכתובת: {url}")
+    print(f"\n📡 ערוץ: {channel['name']}")
     try:
-        # ניקוי היסטוריה קודמת
-        driver.get("about:blank")
-        del driver.requests  # ניקוי בקשות קודמות מהזיכרון של selenium-wire
-
-        driver.get(url)
-
-        # המתנה לטעינת הנגן (עד 20 שניות)
-        try:
-            WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.TAG_NAME, "iframe"))
-            )
-        except:
-            print("   ⚠️ לא נמצא iframe, ממשיך בכל זאת...")
-
-        # המתנה נוספת כדי לוודא שהווידאו התחיל לנגן
-        time.sleep(8) 
-
-        stream_url = None
-        # חיפוש הבקשה הנכונה בתעבורה
-        for request in driver.requests:
-            if request.response:
-                # בדיקה אם זה קובץ m3u8 וגם מכיל את השם של הערוץ
-                if ".m3u8" in request.url and channel_keyword.lower() in request.url.lower():
-                    if "index" in request.url: # מעדיפים את ה-index
-                        stream_url = request.url
-                        break
+        await page.goto(channel["page_url"], timeout=40000, wait_until="domcontentloaded")
         
-        # אם לא מצאנו index, ניקח כל m3u8 שקשור לערוץ
-        if not stream_url:
-            for request in driver.requests:
-                if request.response and ".m3u8" in request.url and channel_keyword.lower() in request.url.lower():
-                    stream_url = request.url
+        target_embed_url = None
+        # חיפוש ה-iframe הנכון (עד 15 שניות)
+        for i in range(15):
+            for frame in page.frames:
+                if "beautifulpeople" in frame.url and "token" in frame.url:
+                    target_embed_url = frame.url
                     break
-        
-        # חילוץ העוגיות (Cookies) מהדפדפן
-        cookies_list = driver.get_cookies()
-        cookies_string = ""
-        for cookie in cookies_list:
-            cookies_string += f"{cookie['name']}={cookie['value']}; "
+                if "embed.html" in frame.url and "token" in frame.url:
+                    target_embed_url = frame.url
+                    break
+            if target_embed_url: break
+            await page.wait_for_timeout(1000)
 
-        return stream_url, cookies_string.strip()
+        if target_embed_url:
+            return await construct_m3u8_from_embed(target_embed_url)
+        else:
+            print("      ⚠️ לא נמצא iframe (דלג).")
 
     except Exception as e:
-        print(f"⚠️ שגיאה בטעינת הערוץ: {e}")
-        return None, None
+        print(f"      ❌ שגיאה: {str(e)[:50]}")
+    finally:
+        await browser.close()
+    return None
 
-# --- התכנית הראשית ---
-def main():
-    print("--- מתחיל סריקה עם מצב חמקן (Stealth Mode) ---")
-    driver = get_stealth_driver()
-    output = []
-
-    try:
+async def main():
+    print("--- SportStream Auto Update (Playwright) ---")
+    json_output = []
+    m3u_lines = ["#EXTM3U"]
+    
+    async with async_playwright() as playwright:
         for ch in channels:
-            print(f"\n📺 סורק את: {ch['name']}...")
-            stream_url, cookies = get_stream_data(driver, ch["page_url"], ch["image"])
-
-            if stream_url:
-                print(f"   ✅ הצלחה! נמצא לינק.")
-                # הוספה לרשימה הסופית
-                output.append({
+            url = await scrape_channel(playwright, ch)
+            if url:
+                # 1. יצירת רשומה ל-JSON (מותאם לאפליקציה שלך)
+                # הלינקים האלה עובדים לרוב בלי Headers מיוחדים, אבל הוספתי ליתר ביטחון
+                json_item = {
                     "id": ch["id"],
                     "name": ch["name"],
-                    "url": stream_url,
+                    "url": url,
                     "image": ch["image"],
                     "headers": {
-                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                        "Referer": ch["page_url"],
-                        "Origin": "https://www.freeshot.live",
-                        "Cookie": cookies
+                        "User-Agent": USER_AGENT,
+                        "Referer": "https://www.freeshot.live/",
+                        "Origin": "https://www.freeshot.live"
                     }
-                })
-            else:
-                print(f"   ❌ נכשל. לא נמצא לינק או שהאתר חסם.")
-                
-    finally:
-        print("\nסוגר דפדפן...")
-        driver.quit()
+                }
+                json_output.append(json_item)
 
-    # שמירה לקובץ
-    if output:
+                # 2. יצירת רשומה ל-M3U (עבור VLC/TiviMate)
+                m3u_lines.append(f'#EXTINF:-1 group-title="Israel Sports" tvg-id="{ch["image"]}" tvg-logo="{ch["image"]}",{ch["name"]}')
+                m3u_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
+                m3u_lines.append(url)
+
+    # שמירת קבצים
+    if json_output:
         with open("channels.json", "w", encoding="utf-8") as f:
-            json.dump(output, f, indent=2, ensure_ascii=False)
-        print(f"\n✨ הסתיים בהצלחה! נשמרו {len(output)} ערוצים לקובץ channels.json")
+            json.dump(json_output, f, indent=2, ensure_ascii=False)
+        print("\n✅ channels.json עודכן בהצלחה.")
+        
+        with open("playlist.m3u", "w", encoding="utf-8") as f:
+            f.write("\n".join(m3u_lines))
+        print("✅ playlist.m3u עודכן בהצלחה.")
     else:
-        print("\n❌ לא נמצאו ערוצים בכלל. ייתכן שיש חסימה חזקה יותר.")
+        print("\n❌ לא נמצאו לינקים, הקבצים לא עודכנו.")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
