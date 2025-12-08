@@ -24,7 +24,6 @@ channels = [
      "page_url": "https://www.freeshot.live/live-tv/sport-5-gold-israel/176"},
 ]
 
-# --- Headers קבועים ---
 DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
     "Referer": "https://www.freeshot.live/",
@@ -32,74 +31,49 @@ DEFAULT_HEADERS = {
 }
 
 async def construct_m3u8_from_embed(embed_url):
-    """
-    מרכיב את הלינק הסופי לפי התבנית המוכחת שעובדת
-    """
     if "embed.html" not in embed_url:
         return None
 
     base_part = embed_url.split("embed.html")[0]
     query_part = embed_url.split("embed.html")[1]
+    final_url = f"{base_part}tracks-v1/index.fmp4.m3u8{query_part}"
 
-    template = "tracks-v1/index.fmp4.m3u8"
-
-    final_url = f"{base_part}{template}{query_part}"
-    print(f"      ✔ לינק הורכב: {final_url[:60]}...")
+    print(f"      ✔ URL: {final_url[:60]}...")
     return final_url
 
-
 async def scrape_channel(playwright, channel):
-    browser = await playwright.chromium.launch(
-        headless=True,
-        args=['--no-sandbox', '--disable-setuid-sandbox']
-    )
-
-    context = await browser.new_context(
-        user_agent=DEFAULT_HEADERS["User-Agent"]
-    )
+    browser = await playwright.chromium.launch(headless=True)
+    context = await browser.new_context(user_agent=DEFAULT_HEADERS["User-Agent"])
     page = await context.new_page()
 
-    print(f"\n🏁 ערוץ: {channel['name']}")
+    print(f"\n📡 ערוץ: {channel['name']}")
 
     try:
-        await page.goto(channel["page_url"], timeout=30000, wait_until="domcontentloaded")
+        await page.goto(channel["page_url"], timeout=30000)
 
         target_embed_url = None
 
-        # לולאה שמחפשת את ה-iframe הנכון
         for _ in range(10):
             for frame in page.frames:
-                if ("embed.html" in frame.url or "beautifulpeople" in frame.url) and "token" in frame.url:
+                if "embed.html" in frame.url and "token" in frame.url:
                     target_embed_url = frame.url
                     break
-
             if target_embed_url:
                 break
-
             await page.wait_for_timeout(800)
 
-        if target_embed_url:
-            return await construct_m3u8_from_embed(target_embed_url)
-        else:
-            print("      ⚠ iframe לא נמצא")
-            return None
-
-    except Exception as e:
-        print(f"      ❌ שגיאה: {str(e)[:100]}")
-        return None
+        return await construct_m3u8_from_embed(target_embed_url) if target_embed_url else None
 
     finally:
         await browser.close()
 
-
 async def main():
-    print("\n=== FreeShot JSON Builder v1 ===\n")
+    print("\n=== Building channels.json ===\n")
     results = []
 
     async with async_playwright() as playwright:
         for ch in channels:
             url = await scrape_channel(playwright, ch)
-
             if url:
                 results.append({
                     "id": ch["id"],
@@ -109,13 +83,10 @@ async def main():
                     "headers": DEFAULT_HEADERS
                 })
 
-    # כתיבה לקובץ JSON
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    print("\n🎉 channels.json נוצר בהצלחה!")
-    print("📂 מוכן לשימוש באפליקציה שלך.")
-
+    print("✅ channels.json נוצר בהצלחה!")
 
 if __name__ == "__main__":
     asyncio.run(main())
