@@ -1,28 +1,28 @@
 #EXTM3U
 #EXTINF:-1 group-title="Israel Sports",Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT1IL/tracks-v1/index.fmp4.m3u8?token=5e3f96508e0257d213781729a88597dc6c1764ea-679ad8bab63a54895a120eefe52e8afe-1765207808-1765204208&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT1IL/tracks-v1/index.fmp4.m3u8?token=f8f8556027bcb00506169462bce5e83478e053f6-eb88c8a96bf68b468ec398271f1231ff-1765208225-1765204625&remote=172.182.209.54
 #EXTINF:-1 group-title="Israel Sports",Sport 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT2IL/tracks-v1/index.fmp4.m3u8?token=31c5ec406d6a8ab970c6ff86e00b4c5b1b54494d-949de4e8e89e7e9a6acf5d65c4784229-1765207812-1765204212&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT2IL/tracks-v1/index.fmp4.m3u8?token=607e8a1a4f2356b18652aeeb44b8ee8c99ef92a9-d13d6d32688a961d74d17cfcdd9a29c0-1765208230-1765204630&remote=172.182.209.54
 #EXTINF:-1 group-title="Israel Sports",Sport 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT3IL/tracks-v1/index.fmp4.m3u8?token=5a2cfdb9f6a6d2ab2d04bf182df8ca9f9b989710-ba245d74ce47179bc51a661e7435e061-1765207816-1765204216&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT3IL/tracks-v1/index.fmp4.m3u8?token=fb4fc6233f69b2567d822cb992012c3ff03f0dfa-513da42f97b2f59a38e1364ece89096d-1765208234-1765204634&remote=172.182.209.54
 #EXTINF:-1 group-title="Israel Sports",Sport 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT4IL/tracks-v1/index.fmp4.m3u8?token=d20cff9672b0884bcf0cf9d95908d210630d85b0-ca5df7c9b0e99263a9be059f7ec51125-1765207820-1765204220&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT4IL/tracks-v1/index.fmp4.m3u8?token=0e2142b12ed8409bb126d3116da2bde9ac2707f9-d42cc503d973243f307ad2f61ea224da-1765208239-1765204639&remote=172.182.209.54
 #EXTINF:-1 group-title="Israel Sports",Sport 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT5IL/tracks-v1/index.fmp4.m3u8?token=9c0c53b8ffb4cddc89bcb799c28133d605ff08e1-5da035c4c37182f03bca5ac5d7d9986b-1765207823-1765204223&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT5IL/tracks-v1/index.fmp4.m3u8?token=81f82fb59a7762648b770fee9878ccffdbddee1a-7698d3217940717e3877294b5c51014d-1765208243-1765204643&remote=172.182.209.54
 #EXTINF:-1 group-title="Israel Sports",Sport 5 Plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT5PLUS/tracks-v1/index.fmp4.m3u8?token=41319b0d62ceb3b4e9d2d070b9b736bdb5aaf5e7-d958fd625e8262db3b4e187065fd7600-1765207826-1765204226&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT5PLUS/tracks-v1/index.fmp4.m3u8?token=fc049c3d168d778912da3237fdf9ff7cab34150f-f279a6cb87ceab67ddb02da5444e1b49-1765208247-1765204647&remote=172.182.209.54
 #EXTINF:-1 group-title="Israel Sports",Sport 5 Live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT5LIVE/tracks-v1/index.fmp4.m3u8?token=b62259cdeffe430106c31c42d62c7f63f9fc0fd7-9340a83d3b780643c601039f216e2877-1765207830-1765204230&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT5LIVE/tracks-v1/index.fmp4.m3u8?token=b6a786bbc286e6e0a5653fade1ebc19bc8fea755-8f95c2e8d2614462ac6f09e7f26e7d3a-1765208252-1765204652&remote=172.182.209.54
 #EXTINF:-1 group-title="Israel Sports",Sport 5 Stars
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT5STARS/tracks-v1/index.fmp4.m3u8?token=79483f5bba57d9f8d0dd928c44c046657d57f149-3c4e144e8fbf4f50160dd749677ad6bb-1765207834-1765204234&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT5STARS/tracks-v1/index.fmp4.m3u8?token=027fd24f8283c452a7621a55f68e47d008a3025b-d64e253779fcddac9c32d591f80a2926-1765208256-1765204656&remote=172.182.209.54
 #EXTINF:-1 group-title="Israel Sports",Sport 5 Gold
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-https://planetary.lovecdn.ru/SPORT5GOLD/tracks-v1/index.fmp4.m3u8?token=f6c9b2a0bc7fc619af36c8c466a3877b6cdffb26-878e8a61893ada75887e5354591c1ed5-1765207838-1765204238&remote=64.236.200.97
+https://planetary.lovecdn.ru/SPORT5GOLD/tracks-v1/index.fmp4.m3u8?token=0cb9d9f2239ab5b1df3a3a656554a80e2f7d1276-642e8398059bf4db815a26f9e148e37d-1765208260-1765204660&remote=172.182.209.54
