@@ -2,21 +2,21 @@ name: Update Channels JSON
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # רץ אוטומטית כל 3 שעות
-  workflow_dispatch: # מאפשר הרצה ידנית
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
 
 jobs:
-  scrape:
-    runs-on: ubuntu-22.04 # תיקון קריטי: שימוש בגרסה שתומכת ב-Playwright
+  update-channels:
+    runs-on: ubuntu-22.04
 
     steps:
-    - name: Check out repository
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: "3.11"
 
     - name: Install dependencies
       run: |
@@ -25,16 +25,13 @@ jobs:
         playwright install chromium
         playwright install-deps
 
-    - name: Run the scraper
-      # וודא שהשם כאן תואם לשם הקובץ שיצרת בתיקייה הראשית!
-      # אם קראת לקובץ freeshot_scraper.py, השאר זאת כך.
-      # אם השארת את השם הישן scrape_and_push.py, שנה את השורה למטה בהתאם.
+    - name: Run scraper (JSON only)
       run: python freeshot_scraper.py
 
-    - name: Commit and push changes
+    - name: Commit and push channels.json
       run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        git add channels.json playlist.m3u
-        git commit -m "Auto-update channels & playlist" || echo "No changes to commit"
+        git config --local user.name "GitHub Actions Bot"
+        git config --local user.email "actions@github.com"
+        git add channels.json
+        git commit -m "Auto-update channels.json" || echo "No changes"
         git push
