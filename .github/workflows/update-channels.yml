@@ -2,12 +2,12 @@ name: Update Channels JSON
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # רץ כל 3 שעות
+    - cron: '0 */3 * * *' # רץ אוטומטית כל 3 שעות
   workflow_dispatch: # מאפשר הרצה ידנית
 
 jobs:
   scrape:
-    runs-on: ubuntu-22.04 # שינוי קריטי: שימוש בגרסה יציבה שתומכת בדרייברים
+    runs-on: ubuntu-22.04 # תיקון קריטי: שימוש בגרסה שתומכת ב-Playwright
 
     steps:
     - name: Check out repository
@@ -26,6 +26,9 @@ jobs:
         playwright install-deps
 
     - name: Run the scraper
+      # וודא שהשם כאן תואם לשם הקובץ שיצרת בתיקייה הראשית!
+      # אם קראת לקובץ freeshot_scraper.py, השאר זאת כך.
+      # אם השארת את השם הישן scrape_and_push.py, שנה את השורה למטה בהתאם.
       run: python freeshot_scraper.py
 
     - name: Commit and push changes
