@@ -2,9 +2,8 @@ name: Update Channels JSON
 
 on:
   schedule:
-    # Runs every 3 hours
-    - cron: '0 */3 * * *'
-  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+    - cron: '0 */3 * * *' # רץ כל 3 שעות
+  workflow_dispatch: # מאפשר הרצה ידנית בלחיצת כפתור
 
 jobs:
   scrape:
@@ -17,14 +16,25 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
+        python-version: '3.9' # Playwright עובד מעולה עם 3.9+
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install selenium selenium-wire webdriver-manager setuptools blinker==1.7.0
+        pip install -r requirements.txt
+        # התקנת הדפדפנים של Playwright (חובה!)
+        playwright install chromium
+        playwright install-deps
 
     - name: Run the scraper
-      run: python scrape_and_push.py
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: python freeshot_scraper.py # מריץ את הסקריפט החדש שלנו
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        # מוסיף את שני הקבצים שנוצרו
+        git add channels.json playlist.m3u
+        # בודק אם יש שינוי ומבצע Commit
+        git commit -m "Auto-update channels & playlist" || echo "No changes to commit"
+        git push
