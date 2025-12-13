@@ -1,101 +1,132 @@
 [
   {
-    "id": 1,
-    "name": "Sport 1",
-    "url": "https://planetary.lovecdn.ru/SPORT1IL/tracks-v1/index.fmp4.m3u8?token=96baafe6ccdd1ab21b796afbcad378752cf2f8af-4f6ab72e060f31e425abf6754a345764-1765653015-1765649415&remote=no_check_ip",
+    "name": "Sport 1 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium140/mono.css",
     "image": "sport1",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   },
   {
-    "id": 2,
-    "name": "Sport 2",
-    "url": "https://planetary.lovecdn.ru/SPORT2IL/tracks-v1/index.fmp4.m3u8?token=c4a4810665d109e98094e2d795df631b5fe7b0e1-c7443736957d115e7081254992bc57c7-1765653023-1765649423&remote=no_check_ip",
+    "name": "Sport 2 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium141/mono.css",
     "image": "sport2",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   },
   {
-    "id": 3,
-    "name": "Sport 3",
-    "url": "https://planetary.lovecdn.ru/SPORT3IL/tracks-v1/index.fmp4.m3u8?token=ab27c2a645bd33b19ff6a2e9dc6e2e81b9885bbb-e138572b9118c6d457437b83c8c26df9-1765653029-1765649429&remote=no_check_ip",
+    "name": "Sport 3 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium142/mono.css",
     "image": "sport3",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   },
   {
-    "id": 4,
-    "name": "Sport 4",
-    "url": "https://planetary.lovecdn.ru/SPORT4IL/tracks-v1/index.fmp4.m3u8?token=991a2f722f3a1c55161cb921bc69a0b0713b8fc6-0294487999d667246f7c595270b7e1e0-1765653038-1765649438&remote=no_check_ip",
+    "name": "Sport 4 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium143/mono.css",
     "image": "sport4",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   },
   {
-    "id": 5,
-    "name": "Sport 5",
-    "url": "https://planetary.lovecdn.ru/SPORT5IL/tracks-v1/index.fmp4.m3u8?token=f7e3dc430d922a06c9dbbb92bf36160b000f4797-51f5296359e9077033dbb90e248caed3-1765653046-1765649446&remote=no_check_ip",
+    "name": "Sport 5 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium144/mono.css",
     "image": "sport5",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   },
   {
-    "id": 6,
     "name": "Sport 5 Plus",
-    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/tracks-v1/index.fmp4.m3u8?token=55c0d20685202ae7712aa4c52ddf534ca515df21-9887edbedb5be96e9af76ace8e5baed6-1765653054-1765649454&remote=no_check_ip",
+    "url": "https://zekonew.giokko.ru/zeko/premium145/mono.css",
     "image": "sport5plus",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   },
   {
-    "id": 7,
     "name": "Sport 5 Live",
-    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/tracks-v1/index.fmp4.m3u8?token=339ffc8135dc19b02188661de3cbe9e4052e22d4-681473e8aea6dfad93cebc1cf5c03581-1765653062-1765649462&remote=no_check_ip",
+    "url": "https://zekonew.giokko.ru/zeko/premium146/mono.css",
     "image": "sport5live",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   },
   {
-    "id": 8,
     "name": "Sport 5 Stars",
-    "url": "https://planetary.lovecdn.ru/SPORT5STARS/tracks-v1/index.fmp4.m3u8?token=497b093938829e0e90bfa62020e0a889aee9b7b7-a98fab864cc69d9504204164757d6c6a-1765653070-1765649470&remote=no_check_ip",
+    "url": "https://zekonew.giokko.ru/zeko/premium147/mono.css",
     "image": "sport5stars",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   },
   {
-    "id": 9,
     "name": "Sport 5 Gold",
-    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/tracks-v1/index.fmp4.m3u8?token=0ad2b7e188ad23fecad68ea3bb8ba2577671b89c-939292000eae7855c143e56d99fedcbb-1765653079-1765649479&remote=no_check_ip",
+    "url": "https://ddy6new.giokko.ru/ddy6/premium148/mono.css",
     "image": "sport5gold",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-      "Referer": "https://www.freeshot.live/",
-      "Origin": "https://www.freeshot.live"
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "name": "ONE 2 HD",
+    "url": "https://ddy6new.giokko.ru/ddy6/premium542/mono.css",
+    "image": "one2",
+    "headers": {
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "name": "HOT 3",
+    "url": "https://ddy6new.giokko.ru/ddy6/premium553/mono.css",
+    "image": "hot3",
+    "headers": {
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "name": "Yes Kids",
+    "url": "https://zekonew.giokko.ru/zeko/premium544/mono.css",
+    "image": "yeskids",
+    "headers": {
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "name": "Yes Action",
+    "url": "https://zekonew.giokko.ru/zeko/premium543/mono.css",
+    "image": "yesaction",
+    "headers": {
+      "Origin": "https://epicplayplay.cfd",
+      "Referer": "https://daddylives.top/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
   }
 ]
