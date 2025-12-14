@@ -1,67 +1,67 @@
 [
   {
-    "name": "Sport 1 HD (4K)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/4k/playlist.m3u8?token=830d97y6a8w",
+    "name": "Sport 1 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium140/mono.css",
     "image": "sport1"
   },
   {
-    "name": "Sport 2 HD (1080p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/1080p/playlist.m3u8?token=13edjxa4q15a",
+    "name": "Sport 2 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium141/mono.css",
     "image": "sport2"
   },
   {
-    "name": "Sport 3 HD (1080p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/1080p/playlist.m3u8?token=idl2kp3m1s",
+    "name": "Sport 3 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium142/mono.css",
     "image": "sport3"
   },
   {
-    "name": "Sport 4 HD (1080p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/1080p/playlist.m3u8?token=xrhgzq5h0gi",
+    "name": "Sport 4 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium143/mono.css",
     "image": "sport4"
   },
   {
-    "name": "Sport 5 HD (1080p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/1080p/playlist.m3u8?token=qq6kf69qjwh",
+    "name": "Sport 5 HD",
+    "url": "https://zekonew.giokko.ru/zeko/premium144/mono.css",
     "image": "sport5"
   },
   {
-    "name": "Sport 5 Plus (720p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/720p/playlist.m3u8?token=va2xze1fn1a",
+    "name": "Sport 5 Plus",
+    "url": "https://zekonew.giokko.ru/zeko/premium145/mono.css",
     "image": "sport5plus"
   },
   {
-    "name": "Sport 5 Live (720p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/720p/playlist.m3u8?token=cf017ydgdp",
+    "name": "Sport 5 Live",
+    "url": "https://zekonew.giokko.ru/zeko/premium146/mono.css",
     "image": "sport5live"
   },
   {
-    "name": "Sport 5 Stars (720p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/720p/playlist.m3u8?token=qkgi1rticj",
+    "name": "Sport 5 Stars",
+    "url": "https://zekonew.giokko.ru/zeko/premium147/mono.css",
     "image": "sport5stars"
   },
   {
-    "name": "Sport 5 Gold (480p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/480p/playlist.m3u8?token=830d97y6a8w",
+    "name": "Sport 5 Gold",
+    "url": "https://ddy6new.giokko.ru/ddy6/premium148/mono.css",
     "image": "sport5gold"
   },
   {
-    "name": "ONE 2 HD (1080p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/1080p/playlist.m3u8?token=tqns5nnffa",
+    "name": "ONE 2 HD",
+    "url": "https://ddy6new.giokko.ru/ddy6/premium542/mono.css",
     "image": "one2"
   },
   {
-    "name": "HOT 3 (720p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/720p/playlist.m3u8?token=4lqa7xaxg1c",
+    "name": "HOT 3",
+    "url": "https://ddy6new.giokko.ru/ddy6/premium553/mono.css",
     "image": "hot3"
   },
   {
-    "name": "Yes Kids (480p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/480p/playlist.m3u8?token=qn479gchhe7",
+    "name": "Yes Kids",
+    "url": "https://zekonew.giokko.ru/zeko/premium544/mono.css",
     "image": "yeskids"
   },
   {
-    "name": "Yes Action (480p)",
-    "url": "https://s3.dualstack.us-east-2.amazonaws.com/cam.edu//hls/480p/playlist.m3u8?token=va2xze1fn1a",
+    "name": "Yes Action",
+    "url": "https://zekonew.giokko.ru/zeko/premium543/mono.css",
     "image": "yesaction"
   }
 ]
