@@ -1,67 +1,67 @@
 [
   {
     "name": "Sport 1 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium140/mono.css",
+    "channel_id": "140",
     "image": "sport1"
   },
   {
     "name": "Sport 2 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium141/mono.css",
+    "channel_id": "141",
     "image": "sport2"
   },
   {
     "name": "Sport 3 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium142/mono.css",
+    "channel_id": "142",
     "image": "sport3"
   },
   {
     "name": "Sport 4 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium143/mono.css",
+    "channel_id": "143",
     "image": "sport4"
   },
   {
     "name": "Sport 5 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium144/mono.css",
+    "channel_id": "144",
     "image": "sport5"
   },
   {
     "name": "Sport 5 Plus",
-    "url": "https://zekonew.giokko.ru/zeko/premium145/mono.css",
+    "channel_id": "145",
     "image": "sport5plus"
   },
   {
     "name": "Sport 5 Live",
-    "url": "https://zekonew.giokko.ru/zeko/premium146/mono.css",
+    "channel_id": "146",
     "image": "sport5live"
   },
   {
     "name": "Sport 5 Stars",
-    "url": "https://zekonew.giokko.ru/zeko/premium147/mono.css",
+    "channel_id": "147",
     "image": "sport5stars"
   },
   {
     "name": "Sport 5 Gold",
-    "url": "https://ddy6new.giokko.ru/ddy6/premium148/mono.css",
+    "channel_id": "148",
     "image": "sport5gold"
   },
   {
     "name": "ONE 2 HD",
-    "url": "https://ddy6new.giokko.ru/ddy6/premium542/mono.css",
+    "channel_id": "542",
     "image": "one2"
   },
   {
     "name": "HOT 3",
-    "url": "https://ddy6new.giokko.ru/ddy6/premium553/mono.css",
+    "channel_id": "553",
     "image": "hot3"
   },
   {
     "name": "Yes Kids",
-    "url": "https://zekonew.giokko.ru/zeko/premium544/mono.css",
+    "channel_id": "544",
     "image": "yeskids"
   },
   {
     "name": "Yes Action",
-    "url": "https://zekonew.giokko.ru/zeko/premium543/mono.css",
+    "channel_id": "543",
     "image": "yesaction"
   }
 ]
