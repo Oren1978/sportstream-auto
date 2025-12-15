@@ -1,65 +1,78 @@
 [
   {
+    "channel_id": "sport1",
     "name": "Sport 1 HD",
     "url": "https://zekonew.giokko.ru/zeko/premium140/mono.css",
     "image": "sport1"
   },
   {
+    "channel_id": "sport2",
     "name": "Sport 2 HD",
     "url": "https://zekonew.giokko.ru/zeko/premium141/mono.css",
     "image": "sport2"
   },
   {
+    "channel_id": "sport3",
     "name": "Sport 3 HD",
     "url": "https://zekonew.giokko.ru/zeko/premium142/mono.css",
     "image": "sport3"
   },
   {
+    "channel_id": "sport4",
     "name": "Sport 4 HD",
     "url": "https://zekonew.giokko.ru/zeko/premium143/mono.css",
     "image": "sport4"
   },
   {
+    "channel_id": "sport5",
     "name": "Sport 5 HD",
     "url": "https://zekonew.giokko.ru/zeko/premium144/mono.css",
     "image": "sport5"
   },
   {
+    "channel_id": "sport5plus",
     "name": "Sport 5 Plus",
     "url": "https://zekonew.giokko.ru/zeko/premium145/mono.css",
     "image": "sport5plus"
   },
   {
+    "channel_id": "sport5live",
     "name": "Sport 5 Live",
     "url": "https://zekonew.giokko.ru/zeko/premium146/mono.css",
     "image": "sport5live"
   },
   {
+    "channel_id": "sport5stars",
     "name": "Sport 5 Stars",
     "url": "https://zekonew.giokko.ru/zeko/premium147/mono.css",
     "image": "sport5stars"
   },
   {
+    "channel_id": "sport5gold",
     "name": "Sport 5 Gold",
     "url": "https://ddy6new.giokko.ru/ddy6/premium148/mono.css",
     "image": "sport5gold"
   },
   {
+    "channel_id": "one2",
     "name": "ONE 2 HD",
     "url": "https://ddy6new.giokko.ru/ddy6/premium542/mono.css",
     "image": "one2"
   },
   {
+    "channel_id": "hot3",
     "name": "HOT 3",
     "url": "https://ddy6new.giokko.ru/ddy6/premium553/mono.css",
     "image": "hot3"
   },
   {
+    "channel_id": "yeskids",
     "name": "Yes Kids",
     "url": "https://zekonew.giokko.ru/zeko/premium544/mono.css",
     "image": "yeskids"
   },
   {
+    "channel_id": "yesaction",
     "name": "Yes Action",
     "url": "https://zekonew.giokko.ru/zeko/premium543/mono.css",
     "image": "yesaction"
