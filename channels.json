@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Sport 1",
-    "url": "https://planetary.lovecdn.ru/SPORT1IL/tracks-v1/index.fmp4.m3u8?token=743329e2369edd3f9763a50873d162e54b37008b-84c6542cee3fe6f996766d0758f4ed43-1765987901-1765984301",
+    "url": "https://planetary.lovecdn.ru/SPORT1IL/tracks-v1/index.fmp4.m3u8?token=8b939fc6f698637dbe3e0ae4bd2d37dbc3265a6c-0d7d5eb582a93c22222af94a28cdacd9-1765999065-1765995465",
     "image": "sport1",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Sport 2",
-    "url": "https://planetary.lovecdn.ru/SPORT2IL/tracks-v1/index.fmp4.m3u8?token=6c11e80772df3e6285664f64b95759d8a0c02a20-9fef7528e4921be46b86e72d1a413f55-1765987905-1765984305",
+    "url": "https://planetary.lovecdn.ru/SPORT2IL/tracks-v1/index.fmp4.m3u8?token=32930edcb48af0a3c9dedbc476fce4a27c376229-31d6dda205085b60a8b32a25ee2d5a51-1765999070-1765995470",
     "image": "sport2",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "name": "Sport 3",
-    "url": "https://planetary.lovecdn.ru/SPORT3IL/tracks-v1/index.fmp4.m3u8?token=8f8f57245644a335fd0cd850770ec9322daba50e-c12f68b9e143f938935e54e2a2d17238-1765987910-1765984310",
+    "url": "https://planetary.lovecdn.ru/SPORT3IL/tracks-v1/index.fmp4.m3u8?token=8c6fa24a9dac7780ebe3ce219f5c32bc9b416b58-e6de49251acb5e1d86d095f16164ef79-1765999075-1765995475",
     "image": "sport3",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "name": "Sport 4",
-    "url": "https://planetary.lovecdn.ru/SPORT4IL/tracks-v1/index.fmp4.m3u8?token=dc92c9523650ceab9999aeb0d14cf28b57db9d40-c700feb231d215700809f0ef14fe04b4-1765987917-1765984317",
+    "url": "https://planetary.lovecdn.ru/SPORT4IL/tracks-v1/index.fmp4.m3u8?token=7a37185716c1cb11ddebf8caaa26534249ae574d-0c731ebd6397d3ea5c0a09933f97657d-1765999079-1765995479",
     "image": "sport4",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "name": "Sport 5",
-    "url": "https://planetary.lovecdn.ru/SPORT5IL/tracks-v1/index.fmp4.m3u8?token=7a2d7a974e5f27f153bb543cedfad9e3dcb47f18-04b827b30758034fe2624791234d3257-1765987926-1765984326",
+    "url": "https://planetary.lovecdn.ru/SPORT5IL/tracks-v1/index.fmp4.m3u8?token=4089b56834a03fc7b39651c35ec7fe4c0a8b5323-6e7e86bb5698119bfe8e4c9244616a6d-1765999084-1765995484",
     "image": "sport5",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "name": "Sport 5 Plus",
-    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/tracks-v1/index.fmp4.m3u8?token=602e9267bac509750f6b99fb40436440dd99caf8-a345bfd3c8b0141574db1131530c0118-1765987930-1765984330",
+    "url": "https://planetary.lovecdn.ru/SPORT5PLUS/tracks-v1/index.fmp4.m3u8?token=bb86c7b62ddeb7dbd6d236b807fcc826f57ebbb9-b97d3d479512a42059ff0b9f486f76c8-1765999088-1765995488",
     "image": "sport5plus",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "name": "Sport 5 Live",
-    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/tracks-v1/index.fmp4.m3u8?token=e26914da78e915416614279e02405032f4471e90-08863b569e1544dbabad9ff5b72babf5-1765987935-1765984335",
+    "url": "https://planetary.lovecdn.ru/SPORT5LIVE/tracks-v1/index.fmp4.m3u8?token=2a5daf86048371e5cd52dffde04ddda7a861c88e-fff69e73a785f5d61aaac50ad3b80a9e-1765999094-1765995494",
     "image": "sport5live",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "name": "Sport 5 Stars",
-    "url": "https://planetary.lovecdn.ru/SPORT5STARS/tracks-v1/index.fmp4.m3u8?token=75f43c7601bcce588e939fc3896907e245c78dde-39ec6fbd08db6edc081f58b686cbda2a-1765987940-1765984340",
+    "url": "https://planetary.lovecdn.ru/SPORT5STARS/tracks-v1/index.fmp4.m3u8?token=a14c290d6ad53f059d10656dcd19bf017d41b0ad-72c471290dbe4bbef8cfb0313db7a2d5-1765999098-1765995498",
     "image": "sport5stars",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "name": "Sport 5 Gold",
-    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/tracks-v1/index.fmp4.m3u8?token=d444bcba91620178bae736e1f6ed43705ae930f9-355ce4faa01bf0ef29a65a0467c216f8-1765987945-1765984345",
+    "url": "https://planetary.lovecdn.ru/SPORT5GOLD/tracks-v1/index.fmp4.m3u8?token=d9a0da24d67ddac53dd8756b769108a2c365b2f8-1ce9a9db7669985b22f243ab473e5cbb-1765999103-1765995503",
     "image": "sport5gold",
     "headers": {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
