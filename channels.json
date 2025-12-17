@@ -1,80 +1,101 @@
 [
   {
-    "channel_id": "sport1",
-    "name": "Sport 1 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium140/mono.css",
-    "image": "sport1"
+    "id": 1,
+    "name": "Sport 1",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT1IL/tracks-v1/index.fmp4.m3u8?token=0ec8396e9494188c1054a21853d379db43c933e7-c7378f0477d9bdd04b675c48734f2669-1765936557-1765932957",
+    "image": "sport1",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   },
   {
-    "channel_id": "sport2",
-    "name": "Sport 2 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium141/mono.css",
-    "image": "sport2"
+    "id": 2,
+    "name": "Sport 2",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT2IL/tracks-v1/index.fmp4.m3u8?token=fa30dae4588720d747252d74d87c81bade96bbb6-17e32481a7f8af271275398c2db39d8f-1765936562-1765932962",
+    "image": "sport2",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   },
   {
-    "channel_id": "sport3",
-    "name": "Sport 3 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium142/mono.css",
-    "image": "sport3"
+    "id": 3,
+    "name": "Sport 3",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT3IL/tracks-v1/index.fmp4.m3u8?token=14f5997f8be499e7f1a6124982d79593bb5df42e-4be726d9931c8348bf65f0faf5f037e6-1765936567-1765932967",
+    "image": "sport3",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   },
   {
-    "channel_id": "sport4",
-    "name": "Sport 4 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium143/mono.css",
-    "image": "sport4"
+    "id": 4,
+    "name": "Sport 4",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT4IL/tracks-v1/index.fmp4.m3u8?token=2af8f25004288ab72be7b903192caedf45bb31f1-6fafa2e74fec875ba80fdd3e193cade2-1765936572-1765932972",
+    "image": "sport4",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   },
   {
-    "channel_id": "sport5",
-    "name": "Sport 5 HD",
-    "url": "https://zekonew.giokko.ru/zeko/premium144/mono.css",
-    "image": "sport5"
+    "id": 5,
+    "name": "Sport 5",
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5IL/tracks-v1/index.fmp4.m3u8?token=a10242ee8422c411a50c77ff4f5095ab8ccc4120-b8bfc21346f0868d9d61acdca195e969-1765936577-1765932977",
+    "image": "sport5",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   },
   {
-    "channel_id": "sport5plus",
+    "id": 6,
     "name": "Sport 5 Plus",
-    "url": "https://zekonew.giokko.ru/zeko/premium145/mono.css",
-    "image": "sport5plus"
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5PLUS/tracks-v1/index.fmp4.m3u8?token=914ea8d0738d6d787fc342b1dbc27eaafaac812e-4aae2a84f339994b20adac79f77dffec-1765936581-1765932981",
+    "image": "sport5plus",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   },
   {
-    "channel_id": "sport5live",
+    "id": 7,
     "name": "Sport 5 Live",
-    "url": "https://zekonew.giokko.ru/zeko/premium146/mono.css",
-    "image": "sport5live"
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5LIVE/tracks-v1/index.fmp4.m3u8?token=03ab7b146d9743e3d08e532f1fcbf1c569a4feb0-f04ea8097cad510b807a8c2408010cb1-1765936585-1765932985",
+    "image": "sport5live",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   },
   {
-    "channel_id": "sport5stars",
+    "id": 8,
     "name": "Sport 5 Stars",
-    "url": "https://zekonew.giokko.ru/zeko/premium147/mono.css",
-    "image": "sport5stars"
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5STARS/tracks-v1/index.fmp4.m3u8?token=833dccc7e0d98122463ccb7eb4db1eee938aea17-e17fb50fd5510b7dba45bb2e984c97cf-1765936590-1765932990",
+    "image": "sport5stars",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   },
   {
-    "channel_id": "sport5gold",
+    "id": 9,
     "name": "Sport 5 Gold",
-    "url": "https://ddy6new.giokko.ru/ddy6/premium148/mono.css",
-    "image": "sport5gold"
-  },
-  {
-    "channel_id": "one2",
-    "name": "ONE 2 HD",
-    "url": "https://ddy6new.giokko.ru/ddy6/premium542/mono.css",
-    "image": "one2"
-  },
-  {
-    "channel_id": "hot3",
-    "name": "HOT 3",
-    "url": "https://ddy6new.giokko.ru/ddy6/premium553/mono.css",
-    "image": "hot3"
-  },
-  {
-    "channel_id": "yeskids",
-    "name": "Yes Kids",
-    "url": "https://zekonew.giokko.ru/zeko/premium544/mono.css",
-    "image": "yeskids"
-  },
-  {
-    "channel_id": "yesaction",
-    "name": "Yes Action",
-    "url": "https://zekonew.giokko.ru/zeko/premium543/mono.css",
-    "image": "yesaction"
+    "url": "https://beautifulpeople.lovecdn.ru/SPORT5GOLD/tracks-v1/index.fmp4.m3u8?token=628b3c2df6a8bba26367b9e97df87e0cc4fab029-ba5cff47b855ee8bec2507c1a1384577-1765936594-1765932994",
+    "image": "sport5gold",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "Referer": "https://www.freeshot.live/",
+      "Origin": "https://www.freeshot.live"
+    }
   }
 ]
